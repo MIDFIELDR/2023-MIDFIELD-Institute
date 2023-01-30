@@ -1,0 +1,23 @@
+---
+title: "Visualization 1"
+subtitle: "Creating more effective charts"
+---
+
+We demonstrate the perceptual limitations of common graph types and suggest more effective alternatives. 
+
+![](figures/stacked-bar-preview.png){width=70%}
+
+
+Our goals in visual rhetoric are  
+  
+- Improving **perception** of stories in the data
+- Facilitating quantitative **reasoning** about the data
+- Enhancing **credibility** of evidence supporting an argument
+
+**Materials**
+
+- [Download PDF](https://github.com/graphdr/workshop-data-stories/blob/main/slides/effective-charts-handout.pdf) worksheets for think-write-share activities. Hardcopy seems to work best for many people.
+
+
+
+

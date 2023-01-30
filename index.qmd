@@ -1,0 +1,26 @@
+---
+title: "Welcome"
+---
+
+**2023 MIDFIELD Institute**  
+Location: Virtual   
+Date: July 11--14   
+Time: 1--5 pm Eastern Time (US)    
+
+
+![](figures/midfield-grad-logo.png){width=25%}
+
+We welcome faculty, staff, and graduate students.  
+
+Our learning objectives can be categorized in two broad classes: qualitative and computational. Qualitatively, by the end of the workshop participants should be able to: 
+
+1. Describe the data available in MIDFIELD  
+1. Describe how the MIDFIELD data are organized  
+1. Describe key principles of effective data visualization
+ 
+Computationally, participants should be able use midfieldr, an R package specifically designed for use with MIDFIELD, to:
+
+1. Subset MIDFIELD data to obtain a population to study  
+1. Classify the student records by desired groupings  
+1. Summarize the data by groups and display results   
+
