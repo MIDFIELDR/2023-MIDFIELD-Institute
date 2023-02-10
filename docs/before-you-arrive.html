@@ -299,18 +299,18 @@ div.csl-indent {
 
 <p>To get the most out of the workshop, you should have the essential software installed and running on your computer several days before the workshop to give you time to contact us with questions if anything goes amiss.</p>
 <p>If you are trying R for the first time, it is vital that you attempt to set up your computer with the necessary software in advance or it will be difficult to keep up.</p>
-<p>As you work your way through this pre-workshop assignment, you will encounter R code chunks to type. Clicking the copy icon in the top right corner copies the code chunk to your clipboard, saving some typing time. For example:</p>
+<p>As you work your way through this pre-workshop assignment, you will encounter R code chunks to type. Clicking the <em>Copy to Clipboard</em> icon <img src="figures/clipboard-copy-icon.png" class="img-fluid"> in the top right corner of the code chunk copies the code to your clipboard, saving some typing time. For example:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># sample code chunk</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <section id="already-use-r" class="level2">
 <h2 class="anchored" data-anchor-id="already-use-r">Already use R?</h2>
-<p>If you are already an R and RStudio user, this is a great time to check for updates.</p>
+<p>If you are already an R and RStudio integrated development environment (IDE) user, this is a great time to check for updates.</p>
 <p><strong>Updating RStudio</strong></p>
 <ul>
 <li>RStudio menu <em>Help &gt; Check for Updates</em> will tell you if you are current or not.</li>
-<li>To update, close RStudio on your machine, download the new version from the <a href="https://www.rstudio.com/products/rstudio/#Desktop">RStudio website</a>, and run the <code>RStudio-some-version-number.exe</code>. (Windows users <em>might</em> have to run the executable as an administrator.)</li>
+<li>To update, close RStudio on your machine, download the new version from <a href="https://posit.co/downloads/">Posit)</a>.</li>
 </ul>
 <p><strong>Update your packages</strong></p>
 <p><a href="https://rstats.wtf/maintaining-r.html#how-to-upgrade-all-out-of-date-packages">How to upgrade all out-of-date packages</a> in <em>What They Forgot to Teach You About R</em> by Jennifer Bryan and Jim Hester.</p>
@@ -365,22 +365,22 @@ div.csl-indent {
 <p><img src="figures/rstudio-new-project.png" class="img-fluid" alt="rstudio new project button"></p>
 <p>In the dialog box that appears,</p>
 <ul>
-<li>Type the workshop name as the directory name, for example, <code>midfield-institute-2022</code><br>
+<li>Type the workshop name as the directory name, for example, <code>midfield-institute-2023</code><br>
 </li>
 <li>Use the browse button to select a location on your computer to create the project folder<br>
 </li>
 <li>Click the <em>Create Project</em> button</li>
 </ul>
-<p>Whenever you work with the workshop materials, launch the <code>midfield-institute-2022.Rproj</code> file to start the session.</p>
+<p>Whenever you work with the workshop materials, launch the <code>midfield-institute-2023.Rproj</code> file to start the session.</p>
 </section>
 <section id="add-some-folders" class="level2">
 <h2 class="anchored" data-anchor-id="add-some-folders">Add some folders</h2>
-<p>While file organization is a matter of personal preference, we ask that you use the directory structure shown here for your work in the workshop. Assuming we called our project <code>midfield-institute-2022</code>, the minimal directory structure has three folders in it plus the <code>.Rproj</code> file at the top level.</p>
-<pre><code>midfield-institute-2022\
+<p>While file organization is a matter of personal preference, we ask that you use the directory structure shown here for your work in the workshop. Assuming we called our project <code>midfield-institute-2023</code>, the minimal directory structure has three folders in it plus the <code>.Rproj</code> file at the top level.</p>
+<pre><code>midfield-institute-2023\
     data\
     results\
     scripts\
-    midfield-institute-2022.Rproj</code></pre>
+    midfield-institute-2023.Rproj</code></pre>
 <p>We use the folders as follows:</p>
 <ul>
 <li><code>data</code> data files</li>
@@ -438,7 +438,7 @@ curl</code></pre>
 </section>
 <section id="install-midfieldr" class="level2">
 <h2 class="anchored" data-anchor-id="install-midfieldr">Install midfieldr</h2>
-<p>midfieldr is not yet available from <a href="https://cran.r-project.org/">CRAN</a>. The development version for the Institute is midfieldr 1.0.0.9025. To install from the<code>drat</code> repository, type in the Console:</p>
+<p>midfieldr is not yet available from <a href="https://cran.r-project.org/">CRAN</a>. The development version for the Institute is midfieldr 1.0.0.9030. To install from the<code>drat</code> repository, type in the Console:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># type in the RStudio Console </span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"midfieldr"</span>, </span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>                 <span class="at">repos =</span> <span class="st">"https://MIDFIELDR.github.io/drat/"</span>, </span>
@@ -502,7 +502,7 @@ Tip
 <li><a href="chart-basics.html">R chart basics</a></li>
 <li><a href="data-basics.html">R data basics</a></li>
 </ul>
-<p>On Tuesday, August 2—the day before the Institute—we plan to hold online office hours to answer your questions about MIDFIELD and help resolve any problems you might be having using R or midfieldr.</p>
+<p>On Tuesday, July 11—the day before the Institute—we plan to hold online office hours to answer your questions about MIDFIELD and help resolve any problems you might be having using R or midfieldr.</p>
 <p>See the <a href="agenda.html">Agenda</a> for more information, including links for downloading handouts to be used in some of the sessions.</p>
 
 

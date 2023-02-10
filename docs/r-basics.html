@@ -309,14 +309,14 @@ div.csl-indent {
 <ul>
 <li>Have completed the <a href="before-you-arrive.html">Before you arrive</a> instructions<br>
 </li>
-<li>Start your R session by launching the RStudio project you created, e.g., <code>midfield-institute-2022.Rproj</code></li>
+<li>Start your R session by launching the RStudio project you created, e.g., <code>midfield-institute-2023.Rproj</code></li>
 </ul>
 <p>If you are in an RStudio project, the project name appears in the upper left corner of the RStudio window. Your project directory (folder) should look something like this:</p>
-<pre><code>midfield-institute-2022\
+<pre><code>midfield-institute-2023\
     data\
     results\
     scripts\
-    midfield-institute-2022.Rproj</code></pre>
+    midfield-institute-2023.Rproj</code></pre>
 </section>
 <section id="getting-started" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="getting-started">Getting started</h2>
@@ -576,7 +576,30 @@ div.csl-indent {
 <span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>room_area</span>
 <span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 49.92</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p><span class="important">On coding style.</span> We name R objects using so-called “snake-case”, that is, lowercase letters and numbers with underscores. You may of course use any style you are comfortable with.</p>
+<p><span class="important">On coding style.</span> Summary of commonly used coding styles for naming objects in R include:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">style</th>
+<th style="text-align: left;">example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">snake case</td>
+<td style="text-align: left;"><code>room_area</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">camel case</td>
+<td style="text-align: left;"><code>roomArea</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pascal case</td>
+<td style="text-align: left;"><code>RoomArea</code></td>
+</tr>
+</tbody>
+</table>
+<p>We use <em>snake case</em>, that is, lowercase letters and numbers with words separated by underscores. You may of course use any style you are comfortable with.</p>
 <p><span class="important">Text objects.</span> You can assign text to an object.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># assign text to an object</span></span>
@@ -620,7 +643,7 @@ div.csl-indent {
 <span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>s1</span>
 <span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  [1] -2.0 -1.5 -1.0 -0.5  0.0  0.5  1.0  1.5  2.0  2.5  3.0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p><span class="important">Vector operations.</span> You can do calculations on vectors, for example using x1 from above:</p>
+<p><span class="important">Vector operations.</span> You can do calculations on vectors, for example using <code>x1</code> from above:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># multiply every element by 2</span></span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>x1 <span class="sc">*</span> <span class="dv">2</span></span>
@@ -667,7 +690,7 @@ div.csl-indent {
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Your turn</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Answer</a></li></ul>
 <div class="tab-content">
 <div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
-<p>Calculate the gross by adding the tax to net amount and round to the nearest integer.</p>
+<p>Add the tax to the net amount and round to the nearest integer.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>net <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">108.99</span>, <span class="fl">291.42</span>, <span class="fl">16.28</span>, <span class="fl">62.29</span>, <span class="fl">31.77</span>)</span>
 <span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>tax <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">22.89</span>, <span class="fl">17.49</span>, <span class="fl">0.98</span>, <span class="fl">13.08</span>, <span class="fl">6.67</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -747,7 +770,7 @@ div.csl-indent {
 </div>
 <p>By concatenating a number and a character string, R changed the class of room area from “numeric” to “character” because all elements of a vector must have the same class.</p>
 <p><span class="important">Data frames.</span> The most common class of data object we will use is the <em>data frame</em>: a two-dimensional array of rows and columns in R. All values in a column are of the same type (numerical, character, logical, etc.) but columns can be of different types.</p>
-<p>For example, the data frame <code>study_grad_rate</code> that is bundled with midfieldr has two character columns and one numerical column.</p>
+<p>For example, the data frame <code>study_results</code> that is bundled with midfieldr has three character columns and three numerical columns.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># a data frame bundled with midfieldr</span></span>
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>study_results</span>

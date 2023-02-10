@@ -6,7 +6,7 @@ To get the most out of the workshop, you should have the essential software inst
 
 If you are trying R for the first time, it is vital that you attempt to set up your computer with the necessary software in advance or it will be difficult to keep up. 
 
-As you work your way through this pre-workshop assignment, you will encounter R code chunks to type. Clicking the copy icon in the top right corner copies the code chunk to your clipboard, saving some typing time. For example:
+As you work your way through this pre-workshop assignment, you will encounter R code chunks to type. Clicking the *Copy to Clipboard* icon ![](figures/clipboard-copy-icon.png) in the top right corner of the code chunk copies the code to your clipboard, saving some typing time. For example:
 
 ```{r}
 #| results: hide
@@ -17,12 +17,12 @@ x <- 10
 
 ## Already use R?
 
-If you are already an R and RStudio user, this is a great time to check for updates. 
+If you are already an R and RStudio integrated development environment (IDE) user, this is a great time to check for updates. 
 
 **Updating RStudio**
 
 - RStudio menu *Help \> Check for Updates* will tell you if you are current or not. 
-- To update, close RStudio on your machine, download the new version from the [RStudio website](https://www.rstudio.com/products/rstudio/#Desktop), and run the `RStudio-some-version-number.exe`. (Windows users *might* have to run the executable as an administrator.)
+- To update, close RStudio on your machine, download the new version from [Posit)](https://posit.co/downloads/). 
 
 **Update your packages**
 
@@ -92,22 +92,22 @@ If you prefer basic written instructions,
 
 In the dialog box that appears, 
   
-- Type the workshop name as the directory name, for example, `midfield-institute-2022`    
+- Type the workshop name as the directory name, for example, `midfield-institute-2023`    
 - Use the browse button to select a location on your computer to create the project  folder  
 - Click the *Create Project* button  
  
-Whenever you work with the workshop materials, launch the `midfield-institute-2022.Rproj` file to start the session. 
+Whenever you work with the workshop materials, launch the `midfield-institute-2023.Rproj` file to start the session. 
 
 ## Add some folders 
 
-While file organization is a matter of personal preference, we ask that you use the directory structure shown here for your work in the workshop. Assuming we called our project `midfield-institute-2022`, the minimal directory structure has three folders in it plus the `.Rproj` file at the top level. 
+While file organization is a matter of personal preference, we ask that you use the directory structure shown here for your work in the workshop. Assuming we called our project `midfield-institute-2023`, the minimal directory structure has three folders in it plus the `.Rproj` file at the top level. 
 
 
-    midfield-institute-2022\
+    midfield-institute-2023\
         data\
         results\
         scripts\
-        midfield-institute-2022.Rproj
+        midfield-institute-2023.Rproj
 
 
 We use the folders as follows: 
@@ -191,7 +191,7 @@ install.packages(packages_we_use)
 
 ## Install midfieldr
 
-midfieldr is not yet available from [CRAN](https://cran.r-project.org/). The development version for the Institute is midfieldr 1.0.0.9025. To install from the`drat` repository, type in the Console: 
+midfieldr is not yet available from [CRAN](https://cran.r-project.org/). The development version for the Institute is midfieldr 1.0.0.9030. To install from the`drat` repository, type in the Console: 
 
 ``` r
 # type in the RStudio Console 
@@ -280,6 +280,6 @@ If you are new to R (or new to the ggplot2 or data.table packages), we recommend
 - [R chart basics](chart-basics.html)
 - [R data basics](data-basics.html)
 
-On Tuesday, August 2---the day before the Institute---we plan to hold online office hours to answer your questions about MIDFIELD and help resolve any problems you might be having using R or midfieldr. 
+On Tuesday, July 11---the day before the Institute---we plan to hold online office hours to answer your questions about MIDFIELD and help resolve any problems you might be having using R or midfieldr. 
 
 See the [Agenda](agenda.html) for more information, including links for downloading handouts to be used in some of the sessions. 

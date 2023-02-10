@@ -21,15 +21,15 @@ This guide gives you a flavor of what R can do for you. To get the most out of t
 [Before starting.]{.important} Our tutorials assume that you
 
 - Have completed the [Before you arrive](before-you-arrive.html) instructions\
-- Start your R session by launching the RStudio project you created, e.g., `midfield-institute-2022.Rproj`
+- Start your R session by launching the RStudio project you created, e.g., `midfield-institute-2023.Rproj`
 
 If you are in an RStudio project, the project name appears in the upper left corner of the RStudio window. Your project directory (folder) should look something like this:
 
-    midfield-institute-2022\
+    midfield-institute-2023\
         data\
         results\
         scripts\
-        midfield-institute-2022.Rproj
+        midfield-institute-2023.Rproj
 
 ## Getting started
 
@@ -311,7 +311,15 @@ room_area <- room_length * room_width
 room_area
 ```
 
-[On coding style.]{.important} We name R objects using so-called "snake-case", that is, lowercase letters and numbers with underscores. You may of course use any style you are comfortable with.  
+[On coding style.]{.important} Summary of commonly used coding styles for naming objects in R include: 
+
+|style       |example       |
+|:-----------|:-------------|
+|snake case  | `room_area`  |
+|camel case  | `roomArea`   |
+|Pascal case | `RoomArea`   |
+
+We use *snake case*, that is, lowercase letters and numbers with words separated by underscores. You may of course use any style you are comfortable with.
 
 [Text objects.]{.important} You can assign text to an object.
 
@@ -359,7 +367,7 @@ s1 <- seq(from = -2, to = 3, by = 0.5)
 s1
 ```
 
-[Vector operations.]{.important} You can do calculations on vectors, for example using x1 from above:
+[Vector operations.]{.important} You can do calculations on vectors, for example using `x1` from above:
 
 ```{r}
 # multiply every element by 2
@@ -402,7 +410,7 @@ ls()
 ::: panel-tabset
 ## Your turn
 
-Calculate the gross by adding the tax to net amount and round to the nearest integer. 
+Add the tax to the net amount and round to the nearest integer. 
 
 ```{r}
 net <- c(108.99, 291.42, 16.28, 62.29, 31.77)
@@ -493,7 +501,7 @@ By concatenating a number and a character string, R changed the class of room ar
 
 [Data frames.]{.important} The most common class of data object we will use is the *data frame*: a two-dimensional array of rows and columns in R. All values in a column are of the same type (numerical, character, logical, etc.) but columns can be of different types. 
 
-For example, the data frame `study_grad_rate` that is bundled with midfieldr has two character columns and one numerical column. 
+For example, the data frame `study_results` that is bundled with midfieldr has three character columns and three numerical columns. 
 
 ```{r}
 # a data frame bundled with midfieldr
