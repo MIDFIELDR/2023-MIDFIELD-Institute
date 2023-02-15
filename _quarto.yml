@@ -18,6 +18,9 @@ website:
     right: 
       - icon: git
         href: https://github.com/MIDFIELDR/2023-midfield-institute
+  comments: 
+    utterances:
+      repo: https://github.com/MIDFIELDR/2023-midfield-institute
   sidebar:
     style: "floating"
     search: true
@@ -55,9 +58,7 @@ website:
       - text: "License"
         file: license.qmd
         
-  comments: 
-    utterances:
-      repo: https://github.com/MIDFIELDR/2022-midfield-institute
+
 
 format:
   html:
