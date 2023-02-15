@@ -7,6 +7,13 @@
     "text": "Image: Today’s Agenda by Rajiv Patel is licensed under CC BY-NC 2.0"
   },
   {
+    "objectID": "agenda.html#tuesday-july-11",
+    "href": "agenda.html#tuesday-july-11",
+    "title": "Agenda",
+    "section": "Tuesday, July 11",
+    "text": "Tuesday, July 11\n\nJoin the online meeting link TBD\n\nPre-workshop tutorials. Completing the following tutorials before Wednesday will make your time with us that much more productive.\n\nR basics\n\nR chart basics\nR data basics\n\n\n1:00–5:00 pm Eastern Time\n\nOffice hours. We are available for answering questions about MIDFIELD and resolving problems you encounter installing R or working with R in the three tutorials listed above.\n\n\nIf you haven’t completed the tutorials, please consider using this time on Tuesday to work on them while we are available to answer questions in real-time."
+  },
+  {
     "objectID": "agenda.html#wednesday-july-12",
     "href": "agenda.html#wednesday-july-12",
     "title": "Agenda",
@@ -411,12 +418,5 @@
     "title": "Resources",
     "section": "Non-R (no code)",
     "text": "Non-R (no code)\n\nMount & Zumel (2019) for a theory of coordinatized data, that is, converting to and from row-oriented and column-oriented data structures (commonly called pivoting and unpivoting).\nRobbins (2013) for a detailed development of principles and practices for creating effective charts."
-  },
-  {
-    "objectID": "agenda.html#tuesday-july-11",
-    "href": "agenda.html#tuesday-july-11",
-    "title": "Agenda",
-    "section": "Tuesday, July 11",
-    "text": "Tuesday, July 11\n\nJoin the online meeting link TBD\n\nPre-workshop tutorials. Completing the following tutorials before Wednesday will make your time with us that much more productive.\n\nR basics\n\nR chart basics\nR data basics\n\n\n1:00–5:00 pm Eastern Time\n\nOffice hours. We are available for answering questions about MIDFIELD and resolving problems you encounter installing R or working with R in the three tutorials listed above.\n\n\nIf you haven’t completed the tutorials, please consider using this time on Tuesday to work on them while we are available to answer questions in real-time."
   }
 ]
