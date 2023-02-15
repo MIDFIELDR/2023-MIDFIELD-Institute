@@ -4,7 +4,7 @@
     "href": "agenda.html",
     "title": "Agenda",
     "section": "",
-    "text": "Join the online meeting link TBD\n\nPre-workshop tutorials. Completing the following tutorials before Wednesday will make your time with us that much more productive.\n\nR basics\n\nR chart basics\nR data basics\n\n\n1:00–5:00 pm Eastern Time\n\nOffice hours. We are available for answering questions about MIDFIELD and resolving problems you encounter installing R or working with R in the three tutorials listed above.\n\n\nIf you haven’t completed the tutorials, please consider using this time on Tuesday to work on them while we are available to answer questions in real-time."
+    "text": "Image: Today’s Agenda by Rajiv Patel is licensed under CC BY-NC 2.0"
   },
   {
     "objectID": "agenda.html#wednesday-july-12",
@@ -39,7 +39,7 @@
     "href": "before-you-arrive.html",
     "title": "Before you arrive",
     "section": "",
-    "text": "To get the most out of the workshop, you should have the essential software installed and running on your computer several days before the workshop to give you time to contact us with questions if anything goes amiss.\nIf you are trying R for the first time, it is vital that you attempt to set up your computer with the necessary software in advance or it will be difficult to keep up.\nAs you work your way through this pre-workshop assignment, you will encounter R code chunks to type. Clicking the Copy to Clipboard icon  in the top right corner of the code chunk copies the code to your clipboard, saving some typing time. For example:"
+    "text": "Image: Data Visualization and R Bookshelf by Richard Layton.\nTo get the most out of the workshop, you should have the essential software installed and running on your computer several days before the workshop to give you time to contact us with questions if anything goes amiss.\nIf you are trying R for the first time, it is vital that you attempt to set up your computer with the necessary software in advance or it will be difficult to keep up.\nAs you work your way through this pre-workshop assignment, you will encounter R code chunks to type. Clicking the Copy to Clipboard icon  in the top right corner of the code chunk copies the code to your clipboard, saving some typing time. For example:"
   },
   {
     "objectID": "before-you-arrive.html#already-use-r",
@@ -109,7 +109,7 @@
     "href": "chart-basics.html",
     "title": "R chart basics",
     "section": "",
-    "text": "Using ggplot2 to create charts in R.\nLicense. This material is adapted from Getting started in R: Tinyverse edition by Bashir and Eddelbuettel (2018) which was licensed under CC BY-SA by ilustat. This adaptation and extension, R chart basics by Richard Layton, is licensed under CC BY-SA 2.0."
+    "text": "Figure from: Richard Layton, Stacked-bar alternatives , https://graphdr.github.io/data-stories/posts/2022-01-14-stacked-bar-alternatives/\nUsing ggplot2 to create charts in R.\nLicense. This material is adapted from Getting started in R: Tinyverse edition by Bashir and Eddelbuettel (2018) which was licensed under CC BY-SA by ilustat. This adaptation and extension, R chart basics by Richard Layton, is licensed under CC BY-SA 2.0."
   },
   {
     "objectID": "chart-basics.html#preface",
@@ -186,7 +186,7 @@
     "href": "data-basics.html",
     "title": "R data basics",
     "section": "",
-    "text": "Using data.table to manipulate data in R.\nLicense. This material is adapted from Getting started in R: Tinyverse edition by Bashir and Eddelbuettel (2018) which was licensed under CC BY-SA by ilustat. This adaptation and extension, R data basics by Richard Layton, is licensed under CC BY-SA 2.0."
+    "text": "Image: US Route 60 Large Array by Mobilus In Mobili is licensed under CC BY-SA 2.0\nUsing data.table to manipulate data in R.\nLicense. This material is adapted from Getting started in R: Tinyverse edition by Bashir and Eddelbuettel (2018) which was licensed under CC BY-SA by ilustat. This adaptation and extension, R data basics by Richard Layton, is licensed under CC BY-SA 2.0."
   },
   {
     "objectID": "data-basics.html#preface",
@@ -277,7 +277,7 @@
     "href": "introduction.html",
     "title": "Introduction",
     "section": "",
-    "text": "The MIDFIELD Institute is a hands-on workshop that helps participants explore using the Multiple-Institution Database for Investigating Longitudinal Development (MIDFIELD). In July 2023, the Institute will be an all-virtual meeting over several days."
+    "text": "Image: A Cautious Introduction by Carol Blyberg is licensed under CC BY-NC 2.0\nThe MIDFIELD Institute is a hands-on workshop that helps participants explore using the Multiple-Institution Database for Investigating Longitudinal Development (MIDFIELD). In July 2023, the Institute will be an all-virtual meeting over several days."
   },
   {
     "objectID": "introduction.html#about-midfield",
@@ -312,7 +312,7 @@
     "href": "license.html",
     "title": "Open source licenses",
     "section": "",
-    "text": "The following licenses apply to the text, data, and code in these workshops. Our goal is to minimize legal encumbrances to the dissemination, sharing, use, and re-use of this work.\n\nCC-BY 4.0 for text.\n\nGPL-3 for code.\n\nCC0 for data.\n\nThe existing rights of authors whose text, code, or data are cited are reserved to those authors.\nWhere noted, works adapted under another license are distributed under the same license."
+    "text": "Image: License and Registration Please by Thomas Hawk is licensed under CC BY-NC 2.0\n\n\nThe following licenses apply to the text, data, and code in these workshops. Our goal is to minimize legal encumbrances to the dissemination, sharing, use, and re-use of this work.\n\nCC-BY 4.0 for text.\n\nGPL-3 for code.\n\nCC0 for data.\n\nThe existing rights of authors whose text, code, or data are cited are reserved to those authors.\nWhere noted, works adapted under another license are distributed under the same license."
   },
   {
     "objectID": "r-basics.html",
@@ -396,7 +396,7 @@
     "href": "r-resources.html",
     "title": "Resources",
     "section": "",
-    "text": "If you happen to come across other resources that you find useful, please let us know and we’ll add them to the list."
+    "text": "Image: Library by Ming-Yueh Wang is licensed under CC BY-NC-ND 2.0\nIf you happen to come across other resources that you find useful, please let us know and we’ll add them to the list."
   },
   {
     "objectID": "r-resources.html#using-r",
@@ -411,5 +411,12 @@
     "title": "Resources",
     "section": "Non-R (no code)",
     "text": "Non-R (no code)\n\nMount & Zumel (2019) for a theory of coordinatized data, that is, converting to and from row-oriented and column-oriented data structures (commonly called pivoting and unpivoting).\nRobbins (2013) for a detailed development of principles and practices for creating effective charts."
+  },
+  {
+    "objectID": "agenda.html#tuesday-july-11",
+    "href": "agenda.html#tuesday-july-11",
+    "title": "Agenda",
+    "section": "Tuesday, July 11",
+    "text": "Tuesday, July 11\n\nJoin the online meeting link TBD\n\nPre-workshop tutorials. Completing the following tutorials before Wednesday will make your time with us that much more productive.\n\nR basics\n\nR chart basics\nR data basics\n\n\n1:00–5:00 pm Eastern Time\n\nOffice hours. We are available for answering questions about MIDFIELD and resolving problems you encounter installing R or working with R in the three tutorials listed above.\n\n\nIf you haven’t completed the tutorials, please consider using this time on Tuesday to work on them while we are available to answer questions in real-time."
   }
 ]

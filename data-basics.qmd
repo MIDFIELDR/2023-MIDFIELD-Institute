@@ -4,6 +4,8 @@ nocite: |
   @R-data.table
 ---
 
+![Image: *US Route 60 Large Array* by Mobilus In Mobili is licensed under [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/legalcode)](figures/data-basics.png)
+
 ```{r}
 #| label: setup
 #| include: false

@@ -2,6 +2,8 @@
 title: "Before you arrive"
 ---
 
+![Image: *Data Visualization and R Bookshelf* by Richard Layton.](figures/before-you-arrive.png)
+
 To get the most out of the workshop, you should have the essential software installed and running on your computer several days before the workshop to give you time to contact us with questions if anything goes amiss.
 
 If you are trying R for the first time, it is vital that you attempt to set up your computer with the necessary software in advance or it will be difficult to keep up. 

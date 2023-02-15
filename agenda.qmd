@@ -2,6 +2,8 @@
 title: "Agenda"
 ---
 
+![Image: *Today's Agenda* by Rajiv Patel is licensed under [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/legalcode)](figures/agenda.png)
+
 ## Tuesday, July 11
 
 - [Join the online meeting]() link TBD

@@ -4,6 +4,8 @@ nocite: |
   @R-data.table, @R-ggplot2
 ---
 
+![Figure from: Richard Layton, *Stacked-bar alternatives* , <https://graphdr.github.io/data-stories/posts/2022-01-14-stacked-bar-alternatives/>](figures/chart-basics.png)
+
 ```{r}
 #| label: setup
 #| include: false

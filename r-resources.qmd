@@ -2,6 +2,8 @@
 title: "Resources"
 ---
 
+![Image: *Library* by Ming-Yueh Wang is licensed under [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/legalcode)](figures/resources.png)
+
 ```{r}
 #| label: setup
 #| include: false
