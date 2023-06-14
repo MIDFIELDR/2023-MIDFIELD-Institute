@@ -277,7 +277,7 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "2023 MIDFIELD Institute\nLocation: Virtual\nDate: July 11–14\nTime: 1–5 pm Eastern Time (US)\n\nWe welcome faculty, staff, graduate students, and everyone interested in exploring MIDFIELD.\nContact Us\nOur learning objectives can be categorized in two broad classes: qualitative and computational. Qualitatively, by the end of the workshop participants should be able to:\n\nDescribe the data available in MIDFIELD\n\nDescribe how the MIDFIELD data are organized\n\nDescribe key principles of effective data visualization\n\nComputationally, participants should be able use midfieldr, an R package specifically designed for use with MIDFIELD, to:\n\nSubset MIDFIELD data to obtain a population to study\n\nClassify the student records by desired groupings\n\nSummarize the data by groups and display results"
+    "text": "2023 MIDFIELD Institute\nLocation: Virtual\nDate: July 11–14\nTime: 1–5 pm Eastern Time (US)\n\nWe welcome faculty, staff, graduate students, and everyone interested in exploring MIDFIELD.\nSend Mail\nOur learning objectives can be categorized in two broad classes: qualitative and computational. Qualitatively, by the end of the workshop participants should be able to:\n\nDescribe the data available in MIDFIELD\n\nDescribe how the MIDFIELD data are organized\n\nDescribe key principles of effective data visualization\n\nComputationally, participants should be able use midfieldr, an R package specifically designed for use with MIDFIELD, to:\n\nSubset MIDFIELD data to obtain a population to study\n\nClassify the student records by desired groupings\n\nSummarize the data by groups and display results"
   },
   {
     "objectID": "introduction.html",
