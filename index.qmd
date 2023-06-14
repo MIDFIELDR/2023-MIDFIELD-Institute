@@ -12,7 +12,9 @@ Time: 1--5 pm Eastern Time (US)
 
 We welcome faculty, staff, graduate students, and everyone interested in exploring MIDFIELD.
 
-[Email link](mailto:graphdoctor@gmail.com)
+
+
+<a href="mailto:graphdoctor@gmail.com">Send Email</a>
 
 Our learning objectives can be categorized in two broad classes: qualitative and computational. Qualitatively, by the end of the workshop participants should be able to: 
 
