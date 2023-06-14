@@ -6,11 +6,13 @@ title: "Welcome"
 Location: Virtual   
 Date: July 11--14   
 Time: 1--5 pm Eastern Time (US)    
-
+   
 
 ![](figures/midfield-grad-logo.png){width=25%}
 
-We welcome faculty, staff, and graduate students.  
+We welcome faculty, staff, graduate students, and everyone interested in exploring MIDFIELD.
+
+[Email link](mailto:graphdoctor@gmail.com)
 
 Our learning objectives can be categorized in two broad classes: qualitative and computational. Qualitatively, by the end of the workshop participants should be able to: 
 
