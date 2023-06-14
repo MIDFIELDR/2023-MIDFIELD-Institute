@@ -14,7 +14,9 @@ We welcome faculty, staff, graduate students, and everyone interested in explori
 
 
 
-<a href="mailto:graphdoctor@gmail.com">Send Email</a>
+<a href="mailto:graphdoctor@gmail.com?subject=Interested in MIDFIELD Institute">Test link to email</a>
+
+
 
 Our learning objectives can be categorized in two broad classes: qualitative and computational. Qualitatively, by the end of the workshop participants should be able to: 
 
