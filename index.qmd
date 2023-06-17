@@ -10,18 +10,10 @@ Time: 1--5 pm Eastern Time (US)
 ::: {layout="[[1,2]]"}
 ![](figures/midfield-grad-logo.png)
 
-**Registration.** <a href="mailto:slord@sandiego.edu?subject=MIDFIELD Institute interest">Click here</a> to send us an email and we will add your name to the list of attendees. The Institute is virtual so there is no other registration required. (If the link fails to open your mail window, please email Susan Lord slord@sandiego.edu with the subject *MIDFIELD Institute interest.*)
+**Registration.** <a href="mailto:slord@sandiego.edu?subject=Register for 2023 MIDFIELD Institute&body=I am interested in attending the 2023 MIDFIELD Institute.">Click here</a> to email us that you are interested in attending the Institute. If the link fails, please email Susan Lord (<slord@sandiego.edu>) with the subject line *Register for 2023 MIDFIELD Institute.*
 :::
 
-
-
 We welcome faculty, staff, graduate students, and anyone interested in exploring MIDFIELD.
-
-
-
-
-
-
 
 Our learning objectives can be categorized in two broad classes: qualitative and computational. Qualitatively, by the end of the workshop participants should be able to: 
 
