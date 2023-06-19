@@ -15,5 +15,5 @@ The session should encourage you to:
 
 **Materials**
 
-- [Download PDF](https://github.com/graphdr/workshop-data-stories/blob/main/slides/chart-repertoire-handout.pdf) worksheets for think-write-share activities. Hard copy seems to work best for many people. 
+- [Download PDF](resources/2023-chart-repertoire-handout.pdf) worksheets for think-write-share activities. Hard copy seems to work best for many people. 
  
