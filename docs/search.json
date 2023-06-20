@@ -7,32 +7,39 @@
     "text": "Image: Today’s Agenda by Rajiv Patel is licensed under CC BY-NC 2.0"
   },
   {
+    "objectID": "agenda.html#pre-workshop",
+    "href": "agenda.html#pre-workshop",
+    "title": "Agenda",
+    "section": "Pre-workshop",
+    "text": "Pre-workshop\nPre-workshop tutorials\nCompleting the following tutorials before Wednesday will make your time with us that much more productive.\n\nR basics\n\nR chart basics\nR data basics"
+  },
+  {
     "objectID": "agenda.html#tuesday-july-11",
     "href": "agenda.html#tuesday-july-11",
     "title": "Agenda",
     "section": "Tuesday, July 11",
-    "text": "Tuesday, July 11\nPre-workshop tutorials\nCompleting the following tutorials before Wednesday will make your time with us that much more productive.\n\nR basics\n\nR chart basics\nR data basics\n\nOffice hours\nJoin the online office hours Link TBD\n1:00–5:00 pm Eastern Time. We are available for answering questions about MIDFIELD and resolving problems you encounter installing R or working with R in the three tutorials listed above.\nIf you haven’t completed the tutorials, please consider using this time on Tuesday to work on them while we are available to answer questions in real-time."
+    "text": "Tuesday, July 11\nOffice hours\nJoin the online office hours (Link not yet active)\n1:00–5:00 pm Eastern Time. We are available for answering questions about MIDFIELD and resolving problems you encounter installing R or working with R in the three pre-workshop tutorials.\nIf you haven’t completed the pre-workshop tutorials, please consider using this time on Tuesday to work on them while we are available to answer questions in real-time."
   },
   {
     "objectID": "agenda.html#wednesday-july-12",
     "href": "agenda.html#wednesday-july-12",
     "title": "Agenda",
     "section": "Wednesday, July 12",
-    "text": "Wednesday, July 12\nJoin the online meeting Link TBD\nIntroductions\n1:00–2:00 Eastern Time\nIntroduce facilitators and participants, objectives, and MIDFIELD.\nExploring data structure\n2:00–3:00\nExploring data excerpts manually.\nGuided practice.\n3:00–5:00\nSelf-paced case study using midfieldr and midfielddata. Real-time help. Please check in with us before leaving the virtual meeting.\n\nCase study: Goals A short reading.\n\nCase study: Data A midfieldr tutorial.\n\nHomework\n\nComplete the guided practice “Data” tutorial.\nOptional (FYI). Topics from today’s guided practice are developed in greater detail in midfieldr package vignettes [link]."
+    "text": "Wednesday, July 12\nJoin the online meeting (Link not yet active)\nIntroductions\n1:00–2:00 Eastern Time\nIntroduce facilitators and participants, objectives, and MIDFIELD.\nExploring data structure\n2:00–3:00\nExploring data excerpts manually.\nGuided practice.\n3:00–5:00\nSelf-paced case study using midfieldr and midfielddata. Real-time help. Please check in with us before leaving the virtual meeting.\n\nCase study: Goals A short reading.\n\nCase study: Data A midfieldr tutorial.\n\nHomework\n\nComplete the guided practice “Data” tutorial.\nOptional (FYI). Topics from today’s guided practice are developed in greater detail in midfieldr package vignettes [link]."
   },
   {
     "objectID": "agenda.html#thursday-july-13",
     "href": "agenda.html#thursday-july-13",
     "title": "Agenda",
     "section": "Thursday, July 13",
-    "text": "Thursday, July 13\nJoin the online meeting Link TBD\nMetaphors and metrics\n1:00–1:30 Eastern Time\nPipelines, pathways, and ecosystems.\nGuided practice\n1:30–2:30\nCase study: Results Continue the case study.\nData visualization session 1\n2:30–3:30\n\nCreating more effective charts Introduction.\nDownload PDF worksheets\n\nOperationalizing a research question.\n3:30–5:00\nDefine a problem in the data that interests you with our assistance, form small groups. Report out your research questions and discussion. Please check in with us before leaving the virtual meeting.\n\nData dictionaries for the four practice data sets.\nExploring the variables using R. The midfieldr “Getting started” page illustrates how to examine possible values for a variable.\n\nHomework\n\nComplete the guided practice “Results” tutorial.\nRefine your plan for working on your research question.\n\nOptional (FYI). Topics from today’s guided practice are developed in greater detail in midfieldr package vignettes [link]."
+    "text": "Thursday, July 13\nJoin the online meeting (Link not yet active)\nMetaphors and metrics\n1:00–1:30 Eastern Time\nPipelines, pathways, and ecosystems.\nGuided practice\n1:30–2:30\nCase study: Results Continue the case study.\nData visualization session 1\n2:30–3:30\n\nCreating more effective charts Introduction.\nDownload PDF worksheets\n\nOperationalizing a research question.\n3:30–5:00\nDefine a problem in the data that interests you with our assistance, form small groups. Report out your research questions and discussion. Please check in with us before leaving the virtual meeting.\n\nData dictionaries for the four practice data sets.\nExploring the variables using R. The midfieldr “Getting started” page illustrates how to examine possible values for a variable.\n\nHomework\n\nComplete the guided practice “Results” tutorial.\nRefine your plan for working on your research question.\n\nOptional (FYI). Topics from today’s guided practice are developed in greater detail in midfieldr package vignettes [link]."
   },
   {
     "objectID": "agenda.html#friday-july-14",
     "href": "agenda.html#friday-july-14",
     "title": "Agenda",
     "section": "Friday, July 14",
-    "text": "Friday, July 14\nJoin the online meeting Link TBD\nData visualization session 2\n1:00–2:00 Eastern Time\n\nExpanding your graphical repertoire Introduction.\nDownload PDF worksheets\n\nWork on your research question\n2:00–3:30\nConsult with us on your progress, discussion\nProgress report\n3:30–4:30\nShare with the group.\nWrap up\n4:40–4:45"
+    "text": "Friday, July 14\nJoin the online meeting (Link not yet active)\nData visualization session 2\n1:00–2:00 Eastern Time\n\nExpanding your graphical repertoire Introduction.\nDownload PDF worksheets\n\nWork on your research question\n2:00–3:30\nConsult with us on your progress, discussion\nProgress report\n3:30–4:30\nShare with the group.\nWrap up\n4:40–4:45"
   },
   {
     "objectID": "agenda.html#after-the-workshop",
