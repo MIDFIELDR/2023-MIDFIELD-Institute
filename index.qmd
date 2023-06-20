@@ -10,8 +10,12 @@ Time: 1--5 pm Eastern Time (US)
 ::: {layout="[[1,3]]"}
 ![](figures/midfield-grad-logo.png)
 
-**Registration.** <a href="mailto:slord@sandiego.edu?subject=Register for 2023 MIDFIELD Institute&body=I am interested in attending the 2023 MIDFIELD Institute.">Click here</a> to email us that you are interested in attending the Institute. If the link fails, please email Susan Lord (<slord@sandiego.edu>) with the subject line *Register for 2023 MIDFIELD Institute.*
+**Registration.** <a href="mailto:slord@sandiego.edu?subject=Register for 2023 MIDFIELD Institute&body=I am interested in attending the 2023 MIDFIELD Institute.">Click here</a> to email us that you are interested in attending the Institute. If the link fails, email Susan Lord (slord@sandiego.edu) with the subject line *Register for 2023 MIDFIELD Institute.*
 :::
+
+
+
+
 
 We welcome faculty, staff, graduate students, and anyone interested in exploring MIDFIELD.
 
