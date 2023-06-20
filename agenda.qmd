@@ -6,19 +6,16 @@ title: "Agenda"
 
 ## Tuesday, July 11
 
-- [Join the online meeting]() link TBD
-
-**Pre-workshop tutorials.** Completing the following tutorials before Wednesday will make your time with us that much more productive. 
+**Pre-workshop tutorials**     
+Completing the following tutorials before Wednesday will make your time with us that much more productive. 
 
 - [R basics](r-basics.html)   
 - [R chart basics](chart-basics.html)
 - [R data basics](data-basics.html)
 
-
-
-1:00--5:00 pm Eastern Time 
-
-: *Office hours.* We are available for answering questions about MIDFIELD and resolving problems you encounter installing R or working with R in the three tutorials listed above. 
+**Office hours**    
+[Join the online office hours]() Link TBD             
+*1:00--5:00 pm Eastern Time.*  We are available for answering questions about MIDFIELD and resolving problems you encounter installing R or working with R in the three tutorials listed above. 
 
 If you haven't completed the tutorials, please consider using this time on Tuesday to work on them while we are available to answer questions in real-time.  
 
@@ -33,28 +30,22 @@ If you haven't completed the tutorials, please consider using this time on Tuesd
 
 ## Wednesday, July 12
 
-- [Join the online meeting]() link TBD
+[Join the online meeting]() Link TBD
 
-1:00--2:00 Eastern Time
+**Introductions**    
+*1:00--2:00 Eastern Time*    
+Introduce facilitators and participants, objectives, and  MIDFIELD.    
 
-: *Introductions.* Introduce facilitators and participants, objectives, and  MIDFIELD.
+**Exploring data structure**    
+*2:00--3:00*    
+Exploring data excerpts manually.
 
-- [Download PDF](resources/filename.pdf) slides (link TBD)
-
-2:00--3:00
-
-: *Exploring data structure.* Exploring data excerpts manually.
-
-- [Download PDF](resources/filename.pdf) slides (link TBD)
-
-3:00--5:00 
-
-: *Guided practice.* Self-paced case study using midfieldr and midfielddata. Real-time help. 
+**Guided practice.**    
+*3:00--5:00*    
+Self-paced case study using midfieldr and midfielddata. Real-time help. Please check in with us before leaving the virtual meeting.
 
 - [Case study: Goals](https://midfieldr.github.io/midfieldr/articles/art-001-case-goals.html) A short reading.   
 - [Case study: Data](https://midfieldr.github.io/midfieldr/articles/art-002-case-data.html) A midfieldr tutorial. 
-
-Please check in with us before leaving the virtual meeting. 
 
 **Homework**
 
@@ -68,38 +59,28 @@ Please check in with us before leaving the virtual meeting.
 
 ## Thursday, July 13
 
-- [Join the online meeting]() link TBD
+[Join the online meeting]() Link TBD    
 
-1:00--1:30 Eastern Time
+**Metaphors and metrics**    
+*1:00--1:30 Eastern Time*    
+Pipelines, pathways, and ecosystems. 
 
-: *Metaphors and metrics.* Pipelines, pathways, and ecosystems.
+**Guided practice**    
+*1:30--2:30*    
+[Case study: Results](https://midfieldr.github.io/midfieldr/articles/art-003-case-results.html) Continue the case study. 
 
-- [Download PDF](resources/filename.pdf) slides (link TBD)
-
-1:30--2:30
-
-: *Guided practice.* Continue the case study.
-
-- [Case study: Results](https://midfieldr.github.io/midfieldr/articles/art-003-case-results.html) A midfieldr tutorial. 
-
-
-2:30--3:30
-
-: *Data visualization session 1* 
+**Data visualization session 1**    
+*2:30--3:30*    
 
 - [Creating more effective charts](effective-charts.html) Introduction. 
-- [Download PDF](https://github.com/graphdr/workshop-data-stories/blob/main/slides/effective-charts-handout.pdf) worksheets 
+- [Download PDF](resources/2023-effective-charts-handout.pdf) worksheets 
 
-3:30--5:00 
-
-: *Operationalizing a research question.* Define a problem in the data that interests you with our assistance, form small groups. Report out your research questions and discussion. 
+**Operationalizing a research question.**    
+*3:30--5:00*    
+Define a problem in the data that interests you with our assistance, form small groups. Report out your research questions and discussion. Please check in with us before leaving the virtual meeting. 
 
 - [Data dictionaries](https://midfieldr.github.io/midfielddata/reference/index.html) for the four practice data sets. 
 - [Exploring the variables](https://midfieldr.github.io/midfieldr/articles/art-000-getting-started.html) using R. The midfieldr "Getting started" page illustrates how to examine possible values for a variable.  
-- [Download PDF](resources/filename.pdf) slides (link TBD)
-
-
-Please check in with us before leaving the virtual meeting. 
 
 **Homework**
 
@@ -114,33 +95,28 @@ Please check in with us before leaving the virtual meeting.
 
 ## Friday, July 14
 
-- [Join the online meeting]() link TBD
+[Join the online meeting]() Link TBD 
 
-1:00--2:00 Eastern Time
-
-: *Data visualization session 2*
+**Data visualization session 2**    
+*1:00--2:00 Eastern Time*    
 
 - [Expanding your graphical repertoire](chart-repertoire.html) Introduction. 
 - [Download PDF](https://github.com/graphdr/workshop-data-stories/blob/main/slides/chart-repertoire-handout.pdf) worksheets
 
-2:00--3:30 
+**Work on your research question**    
+*2:00--3:30*    
+Consult with us on your progress, discussion 
 
-: *Work on your research question.* Consult with us on your progress, discussion 
+**Progress report**    
+*3:30--4:30*    
+Share with the group. 
 
-3:30--4:30
-
-: *Progress report* shared with the group. 
-
-4:40--4:45
-
-: *Wrap up.*
-
-- [Download PDF](resources/filename.pdf) slides (link TBD)
+**Wrap up**    
+*4:40--4:45*    
 
 
 
 
 ## After the workshop
 
-- [R resources](r-resources.html) Additional links and books you might find useful
-- Links to slides are listed above under the relevant session
+ [R resources](r-resources.html) Additional links and books you might find useful
