@@ -11,14 +11,14 @@
     "href": "agenda.html#pre-workshop",
     "title": "Agenda",
     "section": "Pre-workshop",
-    "text": "Pre-workshop\nPre-workshop tutorials\nCompleting the following tutorials before Wednesday will make your time with us that much more productive.\n\nR basics\n\nR chart basics\nR data basics"
+    "text": "Pre-workshop\nPre-workshop tutorials\nIf you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete the three introductory tutorials listed below. Completing these tutorials before attending the Institute will make your time with us that much more productive.\n\nR basics\n\nR chart basics\nR data basics"
   },
   {
     "objectID": "agenda.html#tuesday-july-11",
     "href": "agenda.html#tuesday-july-11",
     "title": "Agenda",
     "section": "Tuesday, July 11",
-    "text": "Tuesday, July 11\nOffice hours\nJoin the online office hours (Link not yet active)\n1:00–5:00 pm Eastern Time. We are available for answering questions about MIDFIELD and resolving problems you encounter installing R or working with R in the three pre-workshop tutorials.\nIf you haven’t completed the pre-workshop tutorials, please consider using this time on Tuesday to work on them while we are available to answer questions in real-time."
+    "text": "Tuesday, July 11\nOffice hours\nJoin the online office hours (Link not yet active)\n1:00–5:00 pm Eastern Time. We are available for answering questions and resolving problems you encounter installing R or working with R in the three pre-workshop tutorials."
   },
   {
     "objectID": "agenda.html#wednesday-july-12",
@@ -298,7 +298,7 @@
     "href": "introduction.html#about-midfield",
     "title": "Introduction",
     "section": "About MIDFIELD",
-    "text": "About MIDFIELD\nMIDFIELD is a partnership of higher education institutions with engineering programs. Begun in 2004 as an extension of the SUCCEED Longitudinal Database, MIDFIELD contains student-level records for all undergraduate, degree-seeking students at the partner institutions.\nAs of June 1, 2022, MIDFIELD contains student-level records for 1.7 M undergraduates at 19 US institutions."
+    "text": "About MIDFIELD\nMIDFIELD is a partnership of higher education institutions with engineering programs. Begun in 2004 as an extension of the SUCCEED Longitudinal Database, MIDFIELD contains student-level records for all undergraduate, degree-seeking students at the partner institutions.\nAs of June 1, 2023, MIDFIELD contains student-level records for 1.7 M undergraduates at 19 US institutions."
   },
   {
     "objectID": "introduction.html#facilitators",

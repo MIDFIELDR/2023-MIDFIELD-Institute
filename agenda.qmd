@@ -7,7 +7,7 @@ title: "Agenda"
 ## Pre-workshop
 
 **Pre-workshop tutorials**     
-Completing the following tutorials before Wednesday will make your time with us that much more productive. 
+If you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete the three introductory tutorials listed below. Completing these tutorials before attending the Institute will make your time with us that much more productive.
 
 - [R basics](r-basics.html)   
 - [R chart basics](chart-basics.html)
@@ -21,9 +21,9 @@ Completing the following tutorials before Wednesday will make your time with us 
 
 **Office hours**    
 [Join the online office hours]() (Link not yet active)    
-*1:00--5:00 pm Eastern Time.*  We are available for answering questions about MIDFIELD and resolving problems you encounter installing R or working with R in the three pre-workshop tutorials. 
+*1:00--5:00 pm Eastern Time.*  We are available for answering questions and resolving problems you encounter installing R or working with R in the three pre-workshop tutorials. 
 
-If you haven't completed the pre-workshop tutorials, please consider using this time on Tuesday to work on them while we are available to answer questions in real-time.  
+
 
 
 
