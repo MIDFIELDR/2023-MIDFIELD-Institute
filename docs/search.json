@@ -270,7 +270,7 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "2023 MIDFIELD Institute\nLocation: Virtual\nDate: July 11–14\nTime: 1–5 pm Eastern Time (US)\n\n\n\n\n\n\nRegistration. Click here to email us that you are interested in attending the Institute. If the link fails, email Susan Lord (slord@sandiego.edu) with the subject line Register for 2023 MIDFIELD Institute.\n\n\n\nWe welcome faculty, staff, graduate students, and anyone interested in exploring MIDFIELD.\nOur learning objectives can be categorized in two broad classes: qualitative and computational. Qualitatively, by the end of the workshop participants should be able to:\n\nDescribe the data available in MIDFIELD\n\nDescribe how the MIDFIELD data are organized\n\nDescribe key principles of effective data visualization\n\nComputationally, participants should be able use midfieldr, an R package specifically designed for use with MIDFIELD, to:\n\nSubset MIDFIELD data to obtain a population to study\n\nClassify the student records by desired groupings\n\nSummarize the data by groups and display results"
+    "text": "2023 MIDFIELD Institute\nLocation: Virtual\nDate: July 11–14\nTime: 1–5 pm Eastern Time (US)\n\n\n\n\n\n\nRegistration. Click here to email us that you are interested in attending the Institute. If the link fails, email Susan Lord (slord@sandiego.edu) with the subject line Register for 2023 MIDFIELD Institute.\n\n\n\nWe welcome faculty, staff, graduate students, and anyone interested in exploring MIDFIELD.\nOur learning objectives can be categorized in two broad classes: qualitative and computational. Qualitatively, by the end of the workshop participants should be able to:\n\nDescribe the data available in MIDFIELD\n\nDescribe how the MIDFIELD data are organized\n\nDescribe key principles of effective data visualization\nDraft a research question that can be addressed using MIDFIELD data\n\nComputationally, participants should be able use midfieldr, an R package specifically designed for use with MIDFIELD, to:\n\nSubset MIDFIELD data to obtain a population to study\n\nClassify the student records by desired groupings\n\nSummarize the data by groups and display results"
   },
   {
     "objectID": "introduction.html",
@@ -392,18 +392,18 @@
     "text": "Keyboard shortcuts\n\nIf you are working in RStudio, you can see the menu of keyboard shortcuts using the menu Tools > Keyboard Shortcuts Help.\nThe shortcuts we use regularly include\n\n\n\n\n\nWindows / Linux\nAction\nMac OS\n\n\n\n\nctrl shift K\nCompile R Markdown document\ncmd shift K\n\n\nctrl L\nClear the RStudio Console\nctrl L\n\n\nctrl shift C\nComment/uncomment line(s)\ncmd shift C\n\n\nctrl X, C, V\nCut, copy, paste\ncmd X, C, V\n\n\nctrl F\nFind in text\ncmd F\n\n\nctrl I\nIndent or re-indent lines od code\ncmd I\n\n\nalt –\nInsert the assignment operator <-\noption –\n\n\nctrl alt B\nRun from begining to line\ncmd option B\n\n\nctrl alt E\nRun from line to end\ncmd option E\n\n\nctrl Enter\nRun selected line(s)\ncmd Return\n\n\nctrl S\nSave\ncmd S\n\n\nctrl A\nSelect all text\ncmd A\n\n\nctrl Z\nUndo\ncmd Z"
   },
   {
-    "objectID": "r-package-links.html",
-    "href": "r-package-links.html",
-    "title": "R package links",
-    "section": "",
-    "text": "midfieldr\nmidfielddata"
-  },
-  {
     "objectID": "r-resources.html",
     "href": "r-resources.html",
     "title": "Resources",
     "section": "",
     "text": "Image: Library by Ming-Yueh Wang is licensed under CC BY-NC-ND 2.0\nIf you happen to come across other resources that you find useful, please let us know and we’ll add them to the list."
+  },
+  {
+    "objectID": "r-resources.html#package-links",
+    "href": "r-resources.html#package-links",
+    "title": "Resources",
+    "section": "Package links",
+    "text": "Package links\n\nmidfieldr\nmidfielddata\nggplot2\ndata.table"
   },
   {
     "objectID": "r-resources.html#using-r",
@@ -418,5 +418,12 @@
     "title": "Resources",
     "section": "Non-R (no code)",
     "text": "Non-R (no code)\n\nMount & Zumel (2019) for a theory of coordinatized data, that is, converting to and from row-oriented and column-oriented data structures (commonly called pivoting and unpivoting).\nRobbins (2013) for a detailed development of principles and practices for creating effective charts."
+  },
+  {
+    "objectID": "tutorials.html",
+    "href": "tutorials.html",
+    "title": "Tutorial links",
+    "section": "",
+    "text": "Collected links to the Institute tutorials. See the Program for scheduling.\nPre-workshop tutorials\n\nR basics\nChart basics\nData basics\n\nWorkshop case study\n\nPart 1: Goals\n\nPart 2: Data\n\nPart 3: Results"
   }
 ]

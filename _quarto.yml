@@ -37,14 +37,8 @@ website:
       - text: "Program"
         file: agenda.qmd
         
-      - text: "R basics"
-        file: r-basics.qmd
-        
-      - text: "R chart basics"
-        file: chart-basics.qmd
-        
-      - text: "R data basics"
-        file: data-basics.qmd
+      - text: "Tutorial links"
+        file: tutorials.qmd
         
       - text: "R resources"
         file: r-resources.qmd
