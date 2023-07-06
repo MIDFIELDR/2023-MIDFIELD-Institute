@@ -2,49 +2,49 @@
   {
     "objectID": "agenda.html",
     "href": "agenda.html",
-    "title": "Agenda",
+    "title": "Program",
     "section": "",
     "text": "Image: Today’s Agenda by Rajiv Patel is licensed under CC BY-NC 2.0"
   },
   {
     "objectID": "agenda.html#pre-workshop",
     "href": "agenda.html#pre-workshop",
-    "title": "Agenda",
+    "title": "Program",
     "section": "Pre-workshop",
     "text": "Pre-workshop\nPre-workshop tutorials\nIf you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete the three introductory tutorials listed below. Completing these tutorials before attending the Institute will make your time with us that much more productive.\n\nR basics\n\nR chart basics\nR data basics"
   },
   {
     "objectID": "agenda.html#tuesday-july-11",
     "href": "agenda.html#tuesday-july-11",
-    "title": "Agenda",
+    "title": "Program",
     "section": "Tuesday, July 11",
-    "text": "Tuesday, July 11\nOffice hours\nJoin the online office hours (Link not yet active)\n1:00–5:00 pm Eastern Time. We are available for answering questions and resolving problems you encounter installing R or working with R in the three pre-workshop tutorials."
+    "text": "Tuesday, July 11\nJoin the online office hours\nOffice hours\n1:00–5:00 pm Eastern Time.\nWe are available for answering questions and resolving problems you encounter installing R or working with R in the three pre-workshop tutorials."
   },
   {
     "objectID": "agenda.html#wednesday-july-12",
     "href": "agenda.html#wednesday-july-12",
-    "title": "Agenda",
+    "title": "Program",
     "section": "Wednesday, July 12",
-    "text": "Wednesday, July 12\nJoin the online meeting (Link not yet active)\nIntroductions\n1:00–2:00 Eastern Time\nIntroduce facilitators and participants, objectives, and MIDFIELD.\nExploring data structure\n2:00–3:00\nExploring data excerpts manually.\nGuided practice.\n3:00–5:00\nSelf-paced case study using midfieldr and midfielddata. Real-time help. Please check in with us before leaving the virtual meeting.\n\nCase study: Goals A short reading.\n\nCase study: Data A midfieldr tutorial.\n\nHomework\n\nComplete the guided practice “Data” tutorial.\nOptional (FYI). Topics from today’s guided practice are developed in greater detail in midfieldr package vignettes [link]."
+    "text": "Wednesday, July 12\nJoin the online meeting\nIntroductions  slides\n1:00–2:00 Eastern Time\nIntroduce facilitators and participants, objectives, and MIDFIELD.\nExploring data structure  slides\n2:00–3:00\nExploring data excerpts manually.\nGuided practice.\n3:00–5:00\nSelf-paced case study using midfieldr and midfielddata illustrating how we work with longitudinal student-level records. Real-time help.\n\nCase study part 1: Goals A short reading to introduce the study.\n\nCase study part 2: Data Transforming the data to yield the observations of interest.\n\nDaily wrap-up.\nBefore 5:00\nPlease check in with us before leaving the virtual meeting.\nHomework\n\nComplete the guided practice Case study: Data tutorial.\nOptional (FYI). Topics from today’s guided practice are developed in greater detail in midfieldr package vignettes [link]."
   },
   {
     "objectID": "agenda.html#thursday-july-13",
     "href": "agenda.html#thursday-july-13",
-    "title": "Agenda",
+    "title": "Program",
     "section": "Thursday, July 13",
-    "text": "Thursday, July 13\nJoin the online meeting (Link not yet active)\nMetaphors and metrics\n1:00–1:30 Eastern Time\nPipelines, pathways, and ecosystems.\nGuided practice\n1:30–2:30\nCase study: Results Continue the case study.\nData visualization session 1\n2:30–3:30\n\nCreating more effective charts Introduction.\nDownload PDF worksheets\n\nOperationalizing a research question.\n3:30–5:00\nDefine a problem in the data that interests you with our assistance, form small groups. Report out your research questions and discussion. Please check in with us before leaving the virtual meeting.\n\nData dictionaries for the four practice data sets.\nExploring the variables using R. The midfieldr “Getting started” page illustrates how to examine possible values for a variable.\n\nHomework\n\nComplete the guided practice “Results” tutorial.\nRefine your plan for working on your research question.\n\nOptional (FYI). Topics from today’s guided practice are developed in greater detail in midfieldr package vignettes [link]."
+    "text": "Thursday, July 13\nJoin the online meeting\nMetaphors and metrics  slides\n1:00–1:30 Eastern Time\nPipelines, pathways, and ecosystems.\nGuided practice\n1:30–2:30\nConclude the case study. Real-time help.\n\nCase study part 3: Results Group and summarize the observations you saved previously, calculate a metric, and display the results.\n\nCreating more effective charts  slides  worksheets\n2:30–3:30\nData visualization session 1. Download the worksheets for our think-pair-share activities. We will ask you to write answers to prompts, so we recommend a hard-copy printout.\nWe demonstrate the perceptual limitations of common graph types and suggest more effective alternatives. Our goals in visual rhetoric are\n\nImproving perception of stories in the data\n\nFacilitating quantitative reasoning about the data\n\nEnhancing credibility of evidence supporting an argument\n\nDrafting a research question.  slides\n3:30–5:00\nDefine a problem in the data that interests you with our assistance, form small groups. Report out your research questions and discussion.\n\nData dictionaries for the four practice data sets.\nExploring the variables using R. The midfieldr “Getting started” page illustrates how to examine possible values for a variable.\n\nDaily wrap-up.\nBefore 5:00\nPlease check in with us before leaving the virtual meeting.\nHomework\n\nComplete the guided practice Case study: Results tutorial.\nRefine your plan for working on your research question.\n\nOptional (FYI). Topics from today’s guided practice are developed in greater detail in midfieldr package vignettes [link]."
   },
   {
     "objectID": "agenda.html#friday-july-14",
     "href": "agenda.html#friday-july-14",
-    "title": "Agenda",
+    "title": "Program",
     "section": "Friday, July 14",
-    "text": "Friday, July 14\nJoin the online meeting (Link not yet active)\nData visualization session 2\n1:00–2:00 Eastern Time\n\nExpanding your graphical repertoire Introduction.\nDownload PDF worksheets\n\nWork on your research question\n2:00–3:30\nConsult with us on your progress, discussion\nProgress report\n3:30–4:30\nShare with the group.\nWrap up\n4:40–4:45"
+    "text": "Friday, July 14\nJoin the online meeting\nExpanding your graphical repertoire  slides  worksheets\n1:00–2:00 Eastern Time\nData visualization session 2. Download the worksheets for our think-pair-share activities. We will ask you to write answers to prompts, so we recommend a hard-copy printout.\nWe illustrate a repertoire of chart types and how they are suited to specific data structures and answering specific types of questions. The session should encourage you to:\n\nExplicitly define the type of variables in your data\nSuit the chart design to the variables you have\nIteratively explore the message conveyed by different designs\n\nWork on your research question  guidelines\n2:00–3:30\nConsult with us on your progress, discussion\nProgress report\n3:30–4:30\nShare with the group.\nWrap up\n4:40–4:45"
   },
   {
     "objectID": "agenda.html#after-the-workshop",
     "href": "agenda.html#after-the-workshop",
-    "title": "Agenda",
+    "title": "Program",
     "section": "After the workshop",
     "text": "After the workshop\nR resources Additional links and books you might find useful"
   },
@@ -189,13 +189,6 @@
     "text": "Scatterplot with mean line\nLet’s finish with a plot that you might include in a publication\n\nggplot(data = cw, mapping = aes(x = Time, y = weight, group = Diet, color = Diet)) +\n  facet_wrap(vars(Diet)) +\n  stat_summary(fun = \"mean\", geom = \"line\", colour= \"black\") +\n  geom_jitter() +\n  theme(legend.position = \"none\") +\n  ggtitle(\"Chick weight by diet and elapsed time\") +\n  xlab(\"Time (days)\") +\n  ylab(\"Weight (grams)\")\n\n\n\n\nNote that I printed the line layer first then printed the points over them to let the data be prominent.\n\nYour turnAnswer\n\n\n\nRead the help page for the facet_wrap() function\nSee if you can edit the code slightly to make the facets print out row-wise, as in 1 row and 4 columns of charts.\n\nWhat visual advantages does this arrangement provide?\nWhat visual disadvantages?"
   },
   {
-    "objectID": "chart-repertoire.html",
-    "href": "chart-repertoire.html",
-    "title": "Visualization 2",
-    "section": "",
-    "text": "In the second session we illustrate a repertoire of chart types and how they are suited to specific data structures and answering specific types of questions.\n\nThe session should encourage you to:\n\nExplicitly define the type of variables in your data\nSuit the chart design to the variables you have\nIteratively explore the message conveyed by different designs\n\nMaterials\n\nDownload PDF worksheets for think-write-share activities. Hard copy seems to work best for many people."
-  },
-  {
     "objectID": "data-basics.html",
     "href": "data-basics.html",
     "title": "R data basics",
@@ -273,13 +266,6 @@
     "text": "Conclusion\nThe R basics, R chart basics, and R data basics guides introduced you to some of the basic concepts for using R and the data.table and ggplot2 packages to manipulate data and create charts. It is only an introduction to what R can do but hopefully you have seen some of the potential of using R for data science.\nNext steps. There are plenty of R courses, books, and online resources that you can learn from. Find things that work for you and don’t be afraid to make mistakes or ask questions.\nDuring the MIDFIELD workshops, you will build on what you’ve learned here, and use the midfieldr package to study student unit records. You can preview that material on the midfieldr website."
   },
   {
-    "objectID": "effective-charts.html",
-    "href": "effective-charts.html",
-    "title": "Visualization 1",
-    "section": "",
-    "text": "We demonstrate the perceptual limitations of common graph types and suggest more effective alternatives.\n\nOur goals in visual rhetoric are\n\nImproving perception of stories in the data\nFacilitating quantitative reasoning about the data\nEnhancing credibility of evidence supporting an argument\n\nMaterials\n\nDownload PDF worksheets for think-write-share activities. Hard copy seems to work best for many people."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome",
@@ -298,7 +284,7 @@
     "href": "introduction.html#about-midfield",
     "title": "Introduction",
     "section": "About MIDFIELD",
-    "text": "About MIDFIELD\nMIDFIELD is a partnership of higher education institutions with engineering programs. Begun in 2004 as an extension of the SUCCEED Longitudinal Database, MIDFIELD contains student-level records for all undergraduate, degree-seeking students at the partner institutions.\nAs of June 1, 2023, MIDFIELD contains student-level records for 1.7 M undergraduates at 19 US institutions."
+    "text": "About MIDFIELD\nMIDFIELD is a partnership of higher education institutions with engineering programs. Begun in 2004 as an extension of the SUCCEED Longitudinal Database, MIDFIELD contains student-level records for all undergraduate, degree-seeking students at the partner institutions.\nAs of July 2023, MIDFIELD contains student-level records for 2.4 M undergraduates at 21 US institutions."
   },
   {
     "objectID": "introduction.html#facilitators",
@@ -404,6 +390,13 @@
     "title": "R basics",
     "section": "Keyboard shortcuts",
     "text": "Keyboard shortcuts\n\nIf you are working in RStudio, you can see the menu of keyboard shortcuts using the menu Tools > Keyboard Shortcuts Help.\nThe shortcuts we use regularly include\n\n\n\n\n\nWindows / Linux\nAction\nMac OS\n\n\n\n\nctrl shift K\nCompile R Markdown document\ncmd shift K\n\n\nctrl L\nClear the RStudio Console\nctrl L\n\n\nctrl shift C\nComment/uncomment line(s)\ncmd shift C\n\n\nctrl X, C, V\nCut, copy, paste\ncmd X, C, V\n\n\nctrl F\nFind in text\ncmd F\n\n\nctrl I\nIndent or re-indent lines od code\ncmd I\n\n\nalt –\nInsert the assignment operator <-\noption –\n\n\nctrl alt B\nRun from begining to line\ncmd option B\n\n\nctrl alt E\nRun from line to end\ncmd option E\n\n\nctrl Enter\nRun selected line(s)\ncmd Return\n\n\nctrl S\nSave\ncmd S\n\n\nctrl A\nSelect all text\ncmd A\n\n\nctrl Z\nUndo\ncmd Z"
+  },
+  {
+    "objectID": "r-package-links.html",
+    "href": "r-package-links.html",
+    "title": "R package links",
+    "section": "",
+    "text": "midfieldr\nmidfielddata"
   },
   {
     "objectID": "r-resources.html",

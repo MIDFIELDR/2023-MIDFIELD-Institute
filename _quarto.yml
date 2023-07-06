@@ -34,7 +34,7 @@ website:
       - text: "Before you arrive"
         file: before-you-arrive.qmd
         
-      - text: "Agenda"
+      - text: "Program"
         file: agenda.qmd
         
       - text: "R basics"
@@ -48,12 +48,6 @@ website:
         
       - text: "R resources"
         file: r-resources.qmd
-        
-      - text: "Visualization 1"
-        file: effective-charts.qmd
-        
-      - text: "Visualization 2"
-        file: chart-repertoire.qmd
         
       - text: "License"
         file: license.qmd
