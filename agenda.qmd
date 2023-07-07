@@ -7,11 +7,11 @@ title: "Program"
 ## Pre-workshop
 
 **Pre-workshop tutorials**     
-If you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete the three introductory tutorials listed below. Completing these tutorials before attending the Institute will make your time with us that much more productive.
+If you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete the three introductory tutorials listed below. Completing these tutorials before attending the Institute will make your time with us that much more productive. The tutorials are designed for the R novice. 
 
 - [R basics](r-basics.html)   
-- [R chart basics](chart-basics.html)
-- [R data basics](data-basics.html)
+- [Chart basics](chart-basics.html)
+- [Data basics](data-basics.html)
 
 
 
@@ -19,7 +19,7 @@ If you are new to R (or new to the ggplot2 or data.table packages), we recommend
 
 ## Tuesday, July 11
 
-[Join the online office hours](https://purdue-edu.zoom.us/j/96788326845?pwd=VTNHRENkS3V2R3Z4VkJsMXU2ZlhFdz09)    
+[Join the online office hours](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)    
 
 **Office hours**    
 *1:00--5:00 pm Eastern Time.*    
@@ -38,12 +38,12 @@ We are available for answering questions and resolving problems you encounter in
 
 ## Wednesday, July 12
 
-[Join the online meeting](https://purdue-edu.zoom.us/j/96788326845?pwd=VTNHRENkS3V2R3Z4VkJsMXU2ZlhFdz09)    
+[Join the online meeting](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)    
 
 
 
 
-**Introductions** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf)    
+**Introductions** [![](resources/download-icon.png) slides](resources/2023-introduction-slides.pdf)    
 *1:00--2:00 Eastern Time*    
 Introduce facilitators and participants, objectives, and MIDFIELD.    
 
@@ -87,12 +87,12 @@ Please check in with us before leaving the virtual meeting.
 
 ## Thursday, July 13
 
-[Join the online meeting](https://purdue-edu.zoom.us/j/96788326845?pwd=VTNHRENkS3V2R3Z4VkJsMXU2ZlhFdz09)        
+[Join the online meeting](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)        
 
 
 
 
-**Metaphors and metrics** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf)    
+**Metaphors and metrics** [![](resources/download-icon.png) slides](resources/2023-metaphors-and-metrics-slides.pdf)    
 *1:00--1:30 Eastern Time*    
 Pipelines, pathways, and ecosystems. 
 
@@ -107,7 +107,8 @@ Conclude the case study. Real-time help.
 
 
 
-**Creating more effective charts** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf) [![](resources/download-icon.png) worksheets](resources/2023-effective-charts-handout.pdf)    
+
+**Creating more effective charts** [![](resources/download-icon.png) slides](resources/placeholder.pdf) [![](resources/download-icon.png) worksheets](resources/2023-effective-charts-handout.pdf)    
 *2:30--3:30*    
 Data visualization session 1. Download the worksheets for our think-pair-share activities. We will ask you to write answers to prompts, so we recommend a hard-copy printout. 
 
@@ -152,7 +153,7 @@ Please check in with us before leaving the virtual meeting.
 
 ## Friday, July 14
 
-[Join the online meeting](https://purdue-edu.zoom.us/j/96788326845?pwd=VTNHRENkS3V2R3Z4VkJsMXU2ZlhFdz09)     
+[Join the online meeting](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)     
 
 
 

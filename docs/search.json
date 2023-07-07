@@ -11,7 +11,7 @@
     "href": "agenda.html#pre-workshop",
     "title": "Program",
     "section": "Pre-workshop",
-    "text": "Pre-workshop\nPre-workshop tutorials\nIf you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete the three introductory tutorials listed below. Completing these tutorials before attending the Institute will make your time with us that much more productive.\n\nR basics\n\nR chart basics\nR data basics"
+    "text": "Pre-workshop\nPre-workshop tutorials\nIf you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete the three introductory tutorials listed below. Completing these tutorials before attending the Institute will make your time with us that much more productive. The tutorials are designed for the R novice.\n\nR basics\n\nChart basics\nData basics"
   },
   {
     "objectID": "agenda.html#tuesday-july-11",
@@ -116,7 +116,7 @@
     "href": "before-you-arrive.html#homework",
     "title": "Before you arrive",
     "section": "Homework",
-    "text": "Homework\nIf you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete the three introductory tutorials listed below. Completing these tutorials before attending the Institute will make your time with us that much more productive.\n\nR basics\nR chart basics\nR data basics\n\nOn Tuesday, July 11—the day before the Institute—we plan to hold online office hours to answer your questions about MIDFIELD and help resolve any problems you might be having using R or midfieldr.\nSee the Agenda for more information, including links for downloading handouts to be used in some of the sessions."
+    "text": "Homework\nIf you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete three pre-workshop tutorials before the first day of the Institute to make your time with us that much more productive.\nSee the Program for links and more information."
   },
   {
     "objectID": "chart-basics.html",
@@ -270,7 +270,7 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "2023 MIDFIELD Institute\nLocation: Virtual\nDate: July 11–14\nTime: 1–5 pm Eastern Time (US)\n\n\n\n\n\n\nRegistration. Click here to email us that you are interested in attending the Institute. If the link fails, email Susan Lord (slord@sandiego.edu) with the subject line Register for 2023 MIDFIELD Institute.\n\n\n\nWe welcome faculty, staff, graduate students, and anyone interested in exploring MIDFIELD.\nOur learning objectives can be categorized in two broad classes: qualitative and computational. Qualitatively, by the end of the workshop participants should be able to:\n\nDescribe the data available in MIDFIELD\n\nDescribe how the MIDFIELD data are organized\n\nDescribe key principles of effective data visualization\nDraft a research question that can be addressed using MIDFIELD data\n\nComputationally, participants should be able use midfieldr, an R package specifically designed for use with MIDFIELD, to:\n\nSubset MIDFIELD data to obtain a population to study\n\nClassify the student records by desired groupings\n\nSummarize the data by groups and display results"
+    "text": "2023 MIDFIELD Institute\nLocation: Virtual\nDate: July 11–14\nTime: 1–5 pm Eastern Time (US)\n\n\n\n\n\n\nRegistration. Click here to email us that you are interested in attending the Institute. If the link fails, email Susan Lord (slord@sandiego.edu) with the subject line Register for 2023 MIDFIELD Institute.\n\n\n\nWe welcome faculty, staff, graduate students, and anyone interested in exploring MIDFIELD.\nQualitatively, by the end of the workshop participants should be able to:\n\nDescribe the data available in MIDFIELD\n\nDescribe how the MIDFIELD data are organized\n\nDescribe key principles of effective data visualization\nDraft a research question that can be addressed using MIDFIELD data\n\nComputationally, participants should be able use midfieldr, an R package specifically designed for use with MIDFIELD, to:\n\nSubset MIDFIELD data to obtain a population to study\n\nClassify the student records by desired groupings\n\nSummarize the data by groups and display results"
   },
   {
     "objectID": "introduction.html",
