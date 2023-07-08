@@ -2,6 +2,8 @@
 title: "Tutorial links"
 ---
 
+![Image: *Tutors* by David Power is licensed under [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/legalcode)](figures/tutorial.png)
+
 Collected links to the Institute tutorials. See the [Program](agenda.html) for scheduling. 
 
 **Pre-workshop tutorials**
