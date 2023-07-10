@@ -38,16 +38,33 @@ If you are in an RStudio project, the project name appears in the upper left cor
 
 ## Getting started
 
-[Starting R & RStudio.]{.important} R starts automatically when you open RStudio with a screen similar to @fig-tinyverse-01. The console starts with information about the version number, license and contributors. The last line is a prompt (`>`) that indicates R is ready to do something.
+[Starting R & RStudio.]{.important} R starts automatically when you open RStudio with a screen similar to @fig-pane-layout. 
+
+- Source: view and edit files, e.g., R scripts   
+- Console: run lines of code interactively  
+- Environment: display currently saved R objects 
+- Output: files, plots, packages, help
 
 ```{r}
-#| label: fig-tinyverse-01
+#| label: fig-pane-layout
 #| echo: false
-#| fig-cap: RStudio screenshot with Console on the left and Help tab in the bottom right
+#| fig-cap: RStudio pane layout. See RStudio's User Guide [Pane layout](https://docs.posit.co/ide/user/ide/guide/ui/ui-panes.html) for details on contents and layout editing.  
 #| fig-cap-location: margin
 
-knitr::include_graphics("figures/tinyverse-01.png")
+knitr::include_graphics("figures/pane-layout.png")
 ```
+
+The console starts with information about the version number, license and contributors. The last line is a prompt (`>`) that indicates R is ready to do something.
+
+```{r}
+#| label: fig-console-startup
+#| echo: false
+#| fig-cap: Console at startup
+#| fig-cap-location: margin
+
+knitr::include_graphics("figures/console-startup.png")
+```
+
 
 [Quitting R & RStudio]{.important}. When you quit RStudio you will be asked whether to *Save workspace?* with a yes or no option. If you choose *Yes*, your current workspace is restored the next time you open RStudio. But as long as you save your script, saving the workspace is unnecessary. I recommend you choose *No*.
 
@@ -77,6 +94,13 @@ help(mean)
 ? mean
 ```
 
+If you are asking for the package help page (assuming you have installed the package), type in the Console, 
+
+``` r
+# view a package help page
+help(package = "midfieldr")
+```
+
 [Keyword search.]{.important} To do a keyword search use the function `apropos()` with the keyword in double quotes ("keyword") or single quote ('keyword'). For example:
 
 ```{r}
@@ -95,15 +119,14 @@ example(mean)
 
 Here, the output of the `mean()` example has length 2 (8.75 5.50). The label `[1]` indicates that the number 8.75 has index 1. 
 
-[RStudio help.]{.important} Rstudio provides search box in the *Help* tab to make your life easier (see @fig-tinyverse-01).
+[RStudio help.]{.important} Rstudio provides search box in the *Help* tab in the *Output pane* to make your life easier (see @fig-pane-layout).
 
 [Online help.]{.important} When you search online use \[r\] in your search terms, for example, "\[r\] linear regression". Because we use data.table for data manipulation, I further recommend that you include data.table as a keyword, e.g., "\[r\]\[data.table\] group and summarize". 
 
 There is nearly always more than one solution to your problem---investigate the different options and try to use one whose arguments and logic you can follow. Limiting your browser's search to the past year can sometimes eliminate out-of-date solutions.
 
 ::: panel-tabset
-## Your turn
-
+## Exercise 1.1
 Try the following.
 
 1.  `help(median)`
@@ -111,7 +134,6 @@ Try the following.
 3.  `? max`
 
 ## Answer
-
 The following help pages should appear in the RStudio *Help* pane.
 
 ![](figures/r-basics-ans-01.png)
@@ -280,17 +302,15 @@ round(8.6178, 2)
 ```
 
 ::: panel-tabset
-## Your turn
-
+## Exercise 1.2
 What do the following pairs of examples do?
 
-1. `ceiling(18.33)` and `signif(9488, 2)`
-2. `exp(1)` and `log10(1000)`
-3. `sign(-2.9)` and `sign(32)`
-4. `abs(-27.9)` and `abs(11.9)`
+1. `ceiling(18.33); signif(9488, 2)`
+2. `exp(1); log10(1000)`
+3. `sign(-2.9); sign(32)`
+4. `abs(-27.9); abs(11.9)`
 
 ## Answer
-
 1. 19 and 9500
 2. 2.718282 and 3
 3. -1 and +1
@@ -413,8 +433,7 @@ ls()
 ```
 
 ::: panel-tabset
-## Your turn
-
+## Exercise 1.3
 Add the tax to the net amount and round to the nearest integer. 
 
 ```{r}
@@ -423,7 +442,6 @@ tax <- c(22.89, 17.49, 0.98, 13.08, 6.67)
 ```
 
 ## Answer
-
 ```{r}
 #| echo: false
 gross <- round(net + tax, 0)
@@ -518,7 +536,7 @@ class(study_results)
 The `class()` function reveals that this `data.frame` object is also a `data.table` object, which is an enhanced version of R's standard data frame.
 
 ::: {.panel-tabset}
-## Your turn
+## Exercise 1.4
 For the following midfieldr objects, determine:
 
 - the class of`add_timely_term`
@@ -552,7 +570,7 @@ str(study_results)
 
 
 ::: {.panel-tabset}
-## Your turn
+## Exercise 1.5
 Use `str()` to determine 
 
 1. `add_timely_term` arguments
@@ -560,7 +578,6 @@ Use `str()` to determine
 3. `toy_term` numerical variables
 
 ## Answer
-
 1. `dframe`, `midfield_term`, `span`, `sched_span`
 2. 100 rows x 6 columns
 3. `hours_term` 

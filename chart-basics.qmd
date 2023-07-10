@@ -150,11 +150,9 @@ summary(cw)
 ```
 
 ::: panel-tabset
-## Your turn
+## Exercise 2.1
 
-Use `tail()` to examine the last observations in `cw` and compare to the last observations in the `ChickWeight` data set provided in base R. 
-
-Do they agree? Describe the differences, if any. 
+Use `tail()` to examine the last observations in `cw` and compare to the last observations in the `ChickWeight` data set provided in base R. Do they agree? Describe the differences, if any. 
 
 
 ## Answer
@@ -170,12 +168,13 @@ tail(ChickWeight)
 ```
 
 Also, the row numbers in `cw` (a data.table) are different from the row numbers in `ChickWeight`. 
+:::
 
-## Your turn
 
-Use `str()` to compare `cw` to the original `ChickWeight` in base R. 
+::: panel-tabset
+## Exercise 2.2
 
-How are they different?
+Use `str()` to compare `cw` to the original `ChickWeight` in base R. How are they different?
 
 ## Answer
 
@@ -195,6 +194,8 @@ str(cw)
 str(ChickWeight)
 ```
 :::
+
+
 
 
 ## Scatterplot
@@ -218,7 +219,7 @@ ggplot(data = cw, mapping = aes(x = Time, y = weight)) +
 
 
 ::: panel-tabset
-## Your turn
+## Exercise 2.3
 
 - Switch the variables `Time` and `weight` in the code chunk.
 - What do you think of this new plot compared to the original?
@@ -289,7 +290,7 @@ ggplot(data = cw, mapping = aes(x = Time, y = weight, color = Diet)) +
 
 
 ::: panel-tabset
-## Your turn
+## Exercise 2.4
 
 - To address "overprinting" (where points print over other points in the same position), replace `geom_point()` with `geom_jitter()`. 
 - What observations about the data can you make? 
@@ -308,13 +309,13 @@ ggplot(data = cw, mapping = aes(x = Time, y = weight, color = Diet)) +
 - Diet 4 has the least variability. 
 - Diet 3 seems to have the highest weights. 
 - We can't really say anything about the mean effect of each diet. 
+:::
 
-## Your turn
+::: panel-tabset
+## Exercise 2.5
 
 For the `legend.position` argument, try using “top”, “left” and
-“none”. 
-
-Do we really need a legend for this plot?
+“none”. Do we really need a legend for this plot?
 
 ## Answer
 
@@ -343,7 +344,7 @@ We see that diet 3 has the highest mean weight gain by the end of the experiment
 
 ::: panel-tabset
 
-## Your turn
+## Exercise 2.6
 
 - What happens when you add `geom_point()` to the plot above? Don’t forget the `+`. 
 - Does it make a difference if you put it before or after `stat_summary(...)`? 
@@ -384,12 +385,14 @@ ggplot(data = cw, mapping = aes(x = Time, y = weight, color = Diet)) +
 
 ::: panel-tabset
 
-## Your turn
+## Exercise 2.7
 
 To the plot above, edit the axis labels using `xlab()` for the x-axis label and `ylab()` for the y-axis label. The labels should be, 
 
 - x-axis: "Time (days)"
 - y-axis: “Weight (grams)”
+
+**Hint:** Add a plus symbol (`+`) at the end of the current last line, then add a the x-label layer using the `xlab()` function. Repeat for the y-label. You can  type `help(xlab)` in the Console to view its help page. 
 
 ## Answer
 
@@ -427,7 +430,7 @@ Note that I printed the line layer first then printed the points over them to le
 
 ::: panel-tabset
 
-## Your turn
+## Exercise 2.8
 
 - Read the help page for the `facet_wrap()` function 
 - See if you can edit the code slightly to make the facets print out row-wise, as in 1 row and 4 columns of charts.  

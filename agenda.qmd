@@ -1,5 +1,5 @@
 ---
-title: "Program"
+title: "Agenda"
 ---
 
 ![Image: *Today's Agenda* by Rajiv Patel is licensed under [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/legalcode)](figures/agenda.png)
@@ -7,11 +7,11 @@ title: "Program"
 ## Pre-workshop
 
 **Pre-workshop tutorials**     
-If you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete the three introductory tutorials listed below. Completing these tutorials before attending the Institute will make your time with us that much more productive. The tutorials are designed for the R novice. 
+If you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete the three introductory tutorials listed below. Completing these tutorials before attending the Institute will make your time with us that much more productive.
 
 - [R basics](r-basics.html)   
-- [Chart basics](chart-basics.html)
-- [Data basics](data-basics.html)
+- [R chart basics](chart-basics.html)
+- [R data basics](data-basics.html)
 
 
 
@@ -22,8 +22,7 @@ If you are new to R (or new to the ggplot2 or data.table packages), we recommend
 [Join the online office hours](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)    
 
 **Office hours**    
-*1:00--5:00 pm Eastern Time.*    
-We are available for answering questions and resolving problems you encounter installing R or working with R in the three pre-workshop tutorials. 
+*1:00--5:00 pm Eastern Time.*  We are available for answering questions and resolving problems you encounter installing R or working with R in the three pre-workshop tutorials. 
 
 
 
@@ -40,44 +39,26 @@ We are available for answering questions and resolving problems you encounter in
 
 [Join the online meeting](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)    
 
-
-
-
-**Introductions** [![](resources/download-icon.png) slides](resources/2023-introduction-slides.pdf)    
+**Introductions** [![](resources/icons8-download-64.png) slides](resources/tbd.pdf) (not yet posted)    
 *1:00--2:00 Eastern Time*    
-Introduce facilitators and participants, objectives, and MIDFIELD.    
+Introduce facilitators and participants, objectives, and  MIDFIELD.  
 
 
 
-
-**Exploring data structure** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf)    
+**Exploring data structure** [![](resources/icons8-download-64.png) slides](resources/tbd.pdf) (not yet posted)    
 *2:00--3:00*    
 Exploring data excerpts manually.
 
-
-
-
 **Guided practice.**    
 *3:00--5:00*    
-Self-paced case study using midfieldr and midfielddata illustrating how we work with longitudinal student-level records. Real-time help. 
+Self-paced case study using midfieldr and midfielddata. Real-time help. Please check in with us before leaving the virtual meeting.
 
-- [Case study part 1: Goals](https://midfieldr.github.io/midfieldr/articles/art-001-case-goals.html) A short reading to introduce the study.  
-- [Case study part 2: Data](https://midfieldr.github.io/midfieldr/articles/art-002-case-data.html) Transforming the data to yield the observations of interest.
-
-
-
-
-**Daily wrap-up.**    
-*Before 5:00*    
-Please check in with us before leaving the virtual meeting.
-
-
-
-
+- [Case study: Goals](https://midfieldr.github.io/midfieldr/articles/art-001-case-goals.html) A short reading.   
+- [Case study: Data](https://midfieldr.github.io/midfieldr/articles/art-002-case-data.html) A midfieldr tutorial. 
 
 **Homework**
 
-- Complete the guided practice [Case study: Data](https://midfieldr.github.io/midfieldr/articles/art-002-case-data.html) tutorial. 
+- Complete the guided practice "Data" tutorial. 
 - *Optional (FYI)*. Topics from today's guided practice are developed in greater detail in midfieldr package vignettes  [[link]](https://midfieldr.github.io/midfieldr/articles/).
 
 
@@ -87,62 +68,39 @@ Please check in with us before leaving the virtual meeting.
 
 ## Thursday, July 13
 
-[Join the online meeting](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)        
+[Join the online meeting](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)    
 
-
-
-
-**Metaphors and metrics** [![](resources/download-icon.png) slides](resources/2023-metaphors-and-metrics-slides.pdf)    
+**Metaphors and metrics** [![](resources/icons8-download-64.png) slides](resources/tbd.pdf) (not yet posted)    
 *1:00--1:30 Eastern Time*    
 Pipelines, pathways, and ecosystems. 
 
-
-
-
 **Guided practice**    
 *1:30--2:30*    
-Conclude the case study. Real-time help.     
+[Case study: Results](https://midfieldr.github.io/midfieldr/articles/art-003-case-results.html) Continue the case study. 
 
-- [Case study part 3: Results](https://midfieldr.github.io/midfieldr/articles/art-003-case-results.html) Group and summarize the observations you saved previously, calculate a metric, and display the results.
-
-
-
-
-**Creating more effective charts** [![](resources/download-icon.png) slides](resources/effective-charts-slides.pdf) [![](resources/download-icon.png) worksheets](resources/2023-effective-charts-handout.pdf)    
+**Data visualization session 1**        
 *2:30--3:30*    
-Data visualization session 1. Download the worksheets for our think-pair-share activities. We will ask you to write answers to prompts, so we recommend a hard-copy printout. 
+We demonstrate the perceptual limitations of common graph types and suggest more effective alternatives. Our goals in visual rhetoric are  
+  
+- Improving **perception** of stories in the data
+- Facilitating quantitative **reasoning** about the data
+- Enhancing **credibility** of evidence supporting an argument
 
-We demonstrate the perceptual limitations of common graph types and suggest more effective alternatives. Our goals in visual rhetoric are
+Materials 
 
-- Improving *perception* of stories in the data  
-- Facilitating quantitative *reasoning* about the data  
-- Enhancing *credibility* of evidence supporting an argument  
+- [![](resources/icons8-download-64.png)worksheets](resources/2023-effective-charts-handout.pdf) for think-write-share activities.
+-  [![](resources/icons8-download-64.png) slides](resources/tbd.pdf) (not yet posted)    
 
- 
-
-
-
-**Drafting a research question.** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf)    
+**Drafting a research question.** [![](resources/icons8-download-64.png)slides](resources/tbd.pdf) (Link not yet active)    
 *3:30--5:00*    
-Define a problem in the data that interests you with our assistance, form small groups. Report out your research questions and discussion. 
-
+Define a problem in the data that interests you with our assistance, form small groups. Report out your research questions and discussion. Please check in with us before leaving the virtual meeting. 
 
 - [Data dictionaries](https://midfieldr.github.io/midfielddata/reference/index.html) for the four practice data sets. 
 - [Exploring the variables](https://midfieldr.github.io/midfieldr/articles/art-000-getting-started.html) using R. The midfieldr "Getting started" page illustrates how to examine possible values for a variable.  
 
-
-
-**Daily wrap-up.**    
-*Before 5:00*    
-Please check in with us before leaving the virtual meeting.
-
-
-
-
-
 **Homework**
 
-- Complete the guided practice [Case study: Results](https://midfieldr.github.io/midfieldr/articles/art-003-case-results.html) tutorial. 
+- Complete the guided practice "Results" tutorial. 
 - Refine your plan for working on your research question.  
 - *Optional (FYI)*. Topics from today's guided practice are developed in greater detail in midfieldr package vignettes  [[link]](https://midfieldr.github.io/midfieldr/articles/).
 
@@ -153,39 +111,27 @@ Please check in with us before leaving the virtual meeting.
 
 ## Friday, July 14
 
-[Join the online meeting](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)     
+[Join the online meeting](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)    
 
-
-
-
-
-**Expanding your graphical repertoire** [![](resources/download-icon.png) slides](resources/chart-repertoire-slides.pdf) [![](resources/download-icon.png) worksheets](resources/2023-chart-repertoire-handout.pdf)        
+**Data visualization session 2: Expanding your graphical repertoire**    
 *1:00--2:00 Eastern Time*    
-Data visualization session 2. Download the worksheets for our think-pair-share activities. We will ask you to write answers to prompts, so we recommend a hard-copy printout. 
+We illustrate a repertoire of chart types and how they are suited to specific data structures and answering specific types of questions. 
 
-We illustrate a repertoire of chart types and how they are suited to specific data structures and answering specific types of questions. The session should encourage you to:
+Materials 
 
-- Explicitly define the type of *variables* in your data
-- Suit the chart *design* to the variables you have
-- Iteratively explore the *message* conveyed by different designs
-
+- [![](resources/icons8-download-64.png)worksheets](resources/2023-chart-repertoire-handout.pdf) for think-write-share activities.
+-  [![](resources/icons8-download-64.png) slides](resources/tbd.pdf) (not yet posted)  
 
 
 
 
-**Work on your research question** [![](resources/download-icon.png) guidelines](resources/2023-draft-a-research-question.pdf)    
+**Work on your research question**    
 *2:00--3:30*    
 Consult with us on your progress, discussion 
 
-
-
-
-**Progress report**    
+**Progress report** [![](resources/icons8-download-64.png) suggested goals](resources/drafting-a-research-question.pdf)    
 *3:30--4:30*    
 Share with the group. 
-
-
-
 
 **Wrap up**    
 *4:40--4:45*    

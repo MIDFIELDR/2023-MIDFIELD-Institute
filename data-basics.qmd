@@ -18,7 +18,18 @@ Using data.table to manipulate data in R.
 
 ## Preface
 
-The rationale for manipulating data using the data.table package instead of base R or the dplyr package include speed, memory efficiency, and concise transforms via the []-indexing operator (e.g., the "by" grouping notation). 
+MIDFIELD data are curated, that is, organized and integrated from multiple institutions, maintained over time, and available for reuse and preservation. Yet to address any specific research question, the data must be wrangled into a shape useful for analysis.
+
+> The basic concept of data wrangling is to visualize your data being structured to make your task easier, and then take the steps to add this structure to your data  [@Zumel+Mount:2020, p.113.]. 
+
+This tutorial covers basic operations for data shaping with the goal of obtaining a simple "data matrix" where each row is an observation and each column is a measurement type.
+
+ 
+
+
+
+
+[Using data.table.]{.important} The rationale for manipulating data using the data.table package instead of base R or the dplyr package include speed, memory efficiency, and concise transforms via the []-indexing operator (e.g., the "by" grouping notation). 
 
 To mitigate the extra cognitive load for new R users of learning data.table syntax while also learning R, I use a "no-frills" approach as much as possible. 
 
@@ -84,7 +95,7 @@ Use your script throughout the tutorial. When a new chunk of code is given,
 ## Import data
 
 Read the same data file we used in the previous tutorial. The data set is in 
-block-record form, that is, variables are columns and observations are rows. 
+block-record (or "data matrix") form, that is, variables are columns and observations are rows. 
 
 ```{r}
 # import data
@@ -99,6 +110,17 @@ cw
 
 [Rename variables.]{.important} Edit column names "in place." 
 
+By *in place* we mean that the change is made using data.table *reference semantics* (or *by reference*) in which changes are made without assigning the result back to a name, that is, we write
+
+        setnames(cw, old, new)
+
+not
+
+        cw <- setnames(cw, old, new)
+
+
+For example, changing the variable names in the `cw` data frame,  
+
 ```{r}
 # change column names in place
 setnames(cw, 
@@ -108,18 +130,28 @@ setnames(cw,
 cw
 ```
 
-By *in place* we mean that the change is made using data.table *reference semantics* (or *by reference*) in which changes are made without assigning the result back to a name, that is, we wrote
-
-        setnames(cw, old, new)
-
-not
-
-        cw <- setnames(cw, old, new)
-
-
 There's much more to reference semantics than dropping the assignment operator---it's really about speed and memory efficiency with large data sets. However, for our "basics" series, you need to recall only that the `:=` operator and all data.table functions with names starting with `set` work by reference. 
 
-[Reorder variables.]{.important} Another example of an operation in-place. The columns listed are moved to the left-hand side of the data frame and other columns appear to the right in their original order. 
+
+::: panel-tabset
+## Exercise 3.1
+- Create a copy of `cw` using `x <- copy(cw)`
+- In `x`, rename the ID variable to `ID`. 
+
+
+## Answer
+```{r}
+x <- copy(cw)
+setnames(x, old = c("chick_id"), new = c("ID"))
+x
+```
+:::
+
+
+
+
+
+[Reorder variables.]{.important} Another example of an operation in-place. The columns listed are moved to the left-hand side of the data frame and other columns appear to the right in their original order. Here we move `day`and `group` to the first two column positions. 
 
 ```{r}
 # reorder column positions in place
@@ -145,7 +177,19 @@ x
 cw
 ```
 
+::: panel-tabset
+## Exercise 3.2
+- Create a copy of `cw` using `x <- copy(cw)`
+- In `x`, reorder the columns from left to right ID, group, day, weight. 
 
+
+## Answer
+```{r}
+x <- copy(cw)
+setcolorder(x, c("chick_id", "group", "day", "weight_g"))
+x
+```
+:::
 
 ## Column operations
 
@@ -170,7 +214,22 @@ cw
 ```
 
 
-[`j` to select variables.]{.important} Variables not listed are dropped. 
+::: panel-tabset
+## Exercise 3.3
+- Create a copy of `cw` using `x <- copy(cw)`
+- In `x`, add the prefix "day" to the day number, converting the variable to type character. 
+
+
+## Answer
+```{r}
+x <- copy(cw)
+x[, day := paste0("day ", day)]
+x
+```
+:::
+
+
+[`j` to select variables.]{.important} Variables not listed are dropped. Here, for example, we drop the `chick_id` variable by not listing it. 
 
 ```{r}
 # select columns 
@@ -180,7 +239,23 @@ x <- cw[, .(day, group, weight_g)]
 x
 ```
 
-[`j` to add a variable.]{.important} The new variable is added to the right of the other columns. 
+
+::: panel-tabset
+## Exercise 3.4
+- Create a copy of `cw` using `x <- copy(cw)`
+- In `x`, select all columns except `day`. 
+
+
+## Answer
+```{r}
+x <- copy(cw)
+x <- x[, .(chick_id, group, weight_g)]
+x
+```
+:::
+
+
+[`j` to add a variable.]{.important} The new variable is added to the right of the other columns. Here, for example, we add the `weight_kg` variable. 
 
 ```{r}
 # add a column
@@ -190,7 +265,23 @@ cw[, weight_kg := weight_g / 1000]
 cw
 ```
 
-[`j` to delete a variable.]{.important} 
+::: panel-tabset
+## Exercise 3.5
+- Create a copy of `cw` using `x <- copy(cw)`
+- In `x`, add a weight variable `weight_oz` in ounces (28.35 grams per ounce). Round the answer to the nearest tenth.
+
+## Answer
+```{r}
+x <- copy(cw)
+x[, weight_oz := round(weight_g / 28.35, 1)]
+x
+```
+:::
+
+
+
+
+[`j` to delete a variable.]{.important} Assigning `NULL` by reference deletes the variable. 
 
 ```{r}
 # delete a column
@@ -200,11 +291,21 @@ cw[, weight_kg := NULL]
 cw
 ```
 
+::: panel-tabset
+## Exercise 3.6
+Using the `x` data frame from the previous exercise, delete the weight variables in grams and kilograms.
 
+## Answer
+```{r}
+x[, weight_g := NULL]
+x[, weight_kg := NULL]
+x
+```
+:::
 
 ## Row operations
 
-[`i` to filter by values.]{.important} 
+[`i` to filter by values.]{.important} Use relational operators to compare values. 
 
 ```{r}
 # subset by observation
@@ -216,15 +317,21 @@ y
 
 For comparing values in vectors use: `<` (less than), `>` (greater than), `<=` (less than or equal to), `>=` (greater than or equal to), `==` (equal to), and `!=` (not equal to). These can be combined logically using `&` (and) and `|` (or).
 
-[`i` to filter by index.]{.important} 
+::: panel-tabset
+## Exercise 3.7
+- Create a copy of `cw` using `x <- copy(cw)`
+- Filter `x` to retain all observations on day 4, diet 3 
 
+## Answer
 ```{r}
-# subset by position
-y <- cw[1:10]
-
-# view
-y
+x <- copy(cw)
+x <- x[day == 4 & group == "diet 3"]
+x
 ```
+:::
+
+
+
 
 [`i` to arrange rows.]{.important} 
 
@@ -235,6 +342,42 @@ y <- cw[order(weight_g, day)]
 # view
 y
 ```
+
+::: panel-tabset
+## Exercise 3.8
+- Create a copy of `cw` using `x <- copy(cw)`
+- Arrange rows of `x` by group and day
+
+## Answer
+```{r}
+x <- copy(cw)
+x <- x[order(group, day)]
+x
+```
+:::
+
+
+[`i` to filter by index.]{.important} 
+
+```{r}
+# subset by position
+y <- cw[1:10]
+
+# view
+y
+```
+
+
+::: panel-tabset
+## Exercise 3.9
+Using the `x` data frame from the previous exercise, filter to retain the last 10 rows.
+
+## Answer
+```{r}
+x <- x[569:578]
+x
+```
+:::
 
 ## Group and summarize
 
@@ -248,19 +391,49 @@ y <- cw[, .(N_chicks = .N), by = c("group")]
 y
 ```
 
+
+::: panel-tabset
+## Exercise 3.10
+- Create a copy of `cw` using `x <- copy(cw)`
+- Count the number of observations by day. Name the variable `count`
+
+## Answer
+```{r}
+x <- copy(cw)
+x <- x[, .(count = .N), by = c("day")]
+x
+```
+:::
+
+
 [`by` to summarize.]{.important} Yields three new variables for count, mean, and standard deviation by the two grouping variables `group` and `day`. 
 
 ```{r}
 # compute summary statistics grouped by two variables
 y <- cw[,                                         # i (empty)
         .(N_chicks = .N,                          # j
-          mean_wt_g = round(mean(weight_g), 1),   # J (cont.)
+          mean_wt_g = round(mean(weight_g), 1),   # j (cont.)
           std_dev_wt_g = round(sd(weight_g), 1)), # j (cont.)
         by = c("group", "day")]                   # by
 
 # view
 y
 ```
+
+
+::: panel-tabset
+## Exercise 3.11
+- Create a copy of `cw` using `x <- copy(cw)`
+- Count the number of chicks in `x` by group and day. Name the variable `count`
+
+## Answer
+```{r}
+x <- copy(cw)
+x <- x[, .(count = .N), by = c("group", "day")]
+x
+```
+:::
+
 
 ## Combine operations
 

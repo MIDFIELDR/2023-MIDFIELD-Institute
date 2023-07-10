@@ -193,12 +193,15 @@ install.packages(packages_we_use)
 
 ## Install midfieldr
 
-Install midfieldr from CRAN using the RStudio *Packages* tab as we did above, or type in the Console: 
+midfieldr is not yet available from [CRAN](https://cran.r-project.org/). The development version for the Institute is midfieldr 1.0.0.9030. To install from the`drat` repository, type in the Console: 
 
 ``` r
 # type in the RStudio Console 
-install.packages("midfieldr")
+install.packages("midfieldr", 
+                 repos = "https://MIDFIELDR.github.io/drat/", 
+                 type = "source")
 ```
+
 
 
 :::{.callout-tip appearance="default"}
@@ -272,6 +275,13 @@ You can turn this prompt off by reopening RStudio and use the pulldown menu:
 
 ## Homework
 
-If you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete three pre-workshop  tutorials before the first day of the Institute to make your time with us that much more productive.
 
-See the [Program](agenda.html#pre-workshop) for links and more information. 
+If you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete the three introductory tutorials listed below.  Completing these tutorials before attending the Institute will make your time with us that much more productive. 
+
+- [R basics](r-basics.html)
+- [R chart basics](chart-basics.html)
+- [R data basics](data-basics.html)
+
+On Tuesday, July 11---the day before the Institute---we plan to hold online office hours to answer your questions about MIDFIELD and help resolve any problems you might be having using R or midfieldr. 
+
+See the [Agenda](agenda.html) for more information, including links for downloading handouts to be used in some of the sessions. 

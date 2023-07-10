@@ -1,0 +1,19 @@
+---
+title: "Visualization 2"
+subtitle: "Expanding your graphical repertoire"
+---
+
+In the second session we illustrate a repertoire of chart types and how they are suited to specific data structures and answering specific types of questions. 
+
+![](figures/evolution-preview.png)
+
+The session should encourage you to: 
+
+- Explicitly define the type of **variables** in your data
+- Suit the chart **design** to the variables you have 
+- Iteratively explore the **message** conveyed by different designs
+
+**Materials**
+
+- [Download PDF](resources/2023-chart-repertoire-handout.pdf) worksheets for think-write-share activities. Hard copy seems to work best for many people. 
+ 
