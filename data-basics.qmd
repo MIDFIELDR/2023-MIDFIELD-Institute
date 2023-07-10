@@ -134,12 +134,14 @@ There's much more to reference semantics than dropping the assignment operator--
 
 
 ::: panel-tabset
-## Exercise 3.1
+
+## [Exercise 3.1]{.important} 
+
 - Create a copy of `cw` using `x <- copy(cw)`
 - In `x`, rename the ID variable to `ID`. 
 
-
 ## Answer
+
 ```{r}
 x <- copy(cw)
 setnames(x, old = c("chick_id"), new = c("ID"))
@@ -178,12 +180,14 @@ cw
 ```
 
 ::: panel-tabset
-## Exercise 3.2
+
+## [Exercise 3.2]{.important} 
+
 - Create a copy of `cw` using `x <- copy(cw)`
 - In `x`, reorder the columns from left to right ID, group, day, weight. 
 
-
 ## Answer
+
 ```{r}
 x <- copy(cw)
 setcolorder(x, c("chick_id", "group", "day", "weight_g"))
@@ -215,12 +219,14 @@ cw
 
 
 ::: panel-tabset
-## Exercise 3.3
+
+## [Exercise 3.3]{.important} 
+
 - Create a copy of `cw` using `x <- copy(cw)`
 - In `x`, add the prefix "day" to the day number, converting the variable to type character. 
 
-
 ## Answer
+
 ```{r}
 x <- copy(cw)
 x[, day := paste0("day ", day)]
@@ -241,12 +247,14 @@ x
 
 
 ::: panel-tabset
-## Exercise 3.4
+
+## [Exercise 3.4]{.important} 
+
 - Create a copy of `cw` using `x <- copy(cw)`
 - In `x`, select all columns except `day`. 
 
-
 ## Answer
+
 ```{r}
 x <- copy(cw)
 x <- x[, .(chick_id, group, weight_g)]
@@ -266,11 +274,14 @@ cw
 ```
 
 ::: panel-tabset
-## Exercise 3.5
+
+## [Exercise 3.5]{.important} 
+
 - Create a copy of `cw` using `x <- copy(cw)`
 - In `x`, add a weight variable `weight_oz` in ounces (28.35 grams per ounce). Round the answer to the nearest tenth.
 
 ## Answer
+
 ```{r}
 x <- copy(cw)
 x[, weight_oz := round(weight_g / 28.35, 1)]
@@ -292,10 +303,13 @@ cw
 ```
 
 ::: panel-tabset
-## Exercise 3.6
+
+## [Exercise 3.6]{.important} 
+
 Using the `x` data frame from the previous exercise, delete the weight variables in grams and kilograms.
 
 ## Answer
+
 ```{r}
 x[, weight_g := NULL]
 x[, weight_kg := NULL]
@@ -318,11 +332,14 @@ y
 For comparing values in vectors use: `<` (less than), `>` (greater than), `<=` (less than or equal to), `>=` (greater than or equal to), `==` (equal to), and `!=` (not equal to). These can be combined logically using `&` (and) and `|` (or).
 
 ::: panel-tabset
-## Exercise 3.7
+
+## [Exercise 3.7]{.important} 
+
 - Create a copy of `cw` using `x <- copy(cw)`
 - Filter `x` to retain all observations on day 4, diet 3 
 
 ## Answer
+
 ```{r}
 x <- copy(cw)
 x <- x[day == 4 & group == "diet 3"]
@@ -344,11 +361,14 @@ y
 ```
 
 ::: panel-tabset
-## Exercise 3.8
+
+## [Exercise 3.8]{.important} 
+
 - Create a copy of `cw` using `x <- copy(cw)`
 - Arrange rows of `x` by group and day
 
 ## Answer
+
 ```{r}
 x <- copy(cw)
 x <- x[order(group, day)]
@@ -369,10 +389,13 @@ y
 
 
 ::: panel-tabset
-## Exercise 3.9
+
+## [Exercise 3.9]{.important} 
+
 Using the `x` data frame from the previous exercise, filter to retain the last 10 rows.
 
 ## Answer
+
 ```{r}
 x <- x[569:578]
 x
@@ -393,11 +416,14 @@ y
 
 
 ::: panel-tabset
-## Exercise 3.10
+
+## [Exercise 3.10]{.important} 
+
 - Create a copy of `cw` using `x <- copy(cw)`
 - Count the number of observations by day. Name the variable `count`
 
 ## Answer
+
 ```{r}
 x <- copy(cw)
 x <- x[, .(count = .N), by = c("day")]
@@ -422,11 +448,14 @@ y
 
 
 ::: panel-tabset
-## Exercise 3.11
+
+## [Exercise 3.11]{.important}
+
 - Create a copy of `cw` using `x <- copy(cw)`
 - Count the number of chicks in `x` by group and day. Name the variable `count`
 
 ## Answer
+
 ```{r}
 x <- copy(cw)
 x <- x[, .(count = .N), by = c("group", "day")]

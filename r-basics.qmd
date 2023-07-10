@@ -125,8 +125,12 @@ Here, the output of the `mean()` example has length 2 (8.75 5.50). The label `[1
 
 There is nearly always more than one solution to your problem---investigate the different options and try to use one whose arguments and logic you can follow. Limiting your browser's search to the past year can sometimes eliminate out-of-date solutions.
 
+   
+
 ::: panel-tabset
-## Exercise 1.1
+
+## [Exercise 1.1]{.important} 
+
 Try the following.
 
 1.  `help(median)`
@@ -134,6 +138,7 @@ Try the following.
 3.  `? max`
 
 ## Answer
+
 The following help pages should appear in the RStudio *Help* pane.
 
 ![](figures/r-basics-ans-01.png)
@@ -302,7 +307,9 @@ round(8.6178, 2)
 ```
 
 ::: panel-tabset
-## Exercise 1.2
+
+## [Exercise 1.2]{.important} 
+
 What do the following pairs of examples do?
 
 1. `ceiling(18.33); signif(9488, 2)`
@@ -311,6 +318,7 @@ What do the following pairs of examples do?
 4. `abs(-27.9); abs(11.9)`
 
 ## Answer
+
 1. 19 and 9500
 2. 2.718282 and 3
 3. -1 and +1
@@ -433,7 +441,9 @@ ls()
 ```
 
 ::: panel-tabset
-## Exercise 1.3
+
+## [Exercise 1.3]{.important} 
+
 Add the tax to the net amount and round to the nearest integer. 
 
 ```{r}
@@ -442,6 +452,7 @@ tax <- c(22.89, 17.49, 0.98, 13.08, 6.67)
 ```
 
 ## Answer
+
 ```{r}
 #| echo: false
 gross <- round(net + tax, 0)
@@ -536,7 +547,9 @@ class(study_results)
 The `class()` function reveals that this `data.frame` object is also a `data.table` object, which is an enhanced version of R's standard data frame.
 
 ::: {.panel-tabset}
-## Exercise 1.4
+
+## [Exercise 1.4]{.important} 
+
 For the following midfieldr objects, determine:
 
 - the class of`add_timely_term`
@@ -544,6 +557,7 @@ For the following midfieldr objects, determine:
 - the names of the variables in `toy_term`
 
 ## Answer
+
 ```r
 # class of add_timely_term
 #> [1] "function"
@@ -570,7 +584,9 @@ str(study_results)
 
 
 ::: {.panel-tabset}
-## Exercise 1.5
+
+## [Exercise 1.5]{.important} 
+
 Use `str()` to determine 
 
 1. `add_timely_term` arguments
@@ -578,6 +594,7 @@ Use `str()` to determine
 3. `toy_term` numerical variables
 
 ## Answer
+
 1. `dframe`, `midfield_term`, `span`, `sched_span`
 2. 100 rows x 6 columns
 3. `hours_term` 
