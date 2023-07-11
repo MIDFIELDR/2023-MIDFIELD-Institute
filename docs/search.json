@@ -25,7 +25,7 @@
     "href": "agenda.html#wednesday-july-12",
     "title": "Program",
     "section": "Wednesday, July 12",
-    "text": "Wednesday, July 12\nJoin the online meeting\nIntroductions  slides\n1:00–2:00 Eastern Time\nIntroduce facilitators and participants, objectives, and MIDFIELD.\nExploring data structure  slides\n2:00–3:00\nExploring data excerpts manually.\nGuided practice.\n3:00–5:00\nSelf-paced case study using midfieldr and midfielddata. Real-time help.\n\nCase study: Goals A short reading.\n\nCase study: Data A midfieldr tutorial.\n\nWrap-up.\nbefore 5:00\nPlease check in with us before leaving the virtual meeting.\nHomework\n\nComplete the guided practice “Data” tutorial.\nOptional (FYI). Topics from today’s guided practice are developed in greater detail in midfieldr package vignettes [link]."
+    "text": "Wednesday, July 12\nJoin the online meeting\nIntroductions  slides\n1:00–2:00 Eastern Time\nIntroduce facilitators and participants, objectives, and MIDFIELD.\nExploring data structure  slides\n2:00–3:00\nExploring data excerpts manually.\n\nStudent 1 data example\nStudent 2 data example\n\nCIP website NCES Classification of Instructional Programs (CIP)\n\nGuided practice.\n3:00–5:00\nSelf-paced case study using midfieldr and midfielddata. Real-time help.\n\nCase study: Goals A short reading.\n\nCase study: Data A midfieldr tutorial.\n\nWrap-up.\nbefore 5:00\nPlease check in with us before leaving the virtual meeting.\nHomework\n\nComplete the guided practice “Data” tutorial.\nOptional (FYI). Topics from today’s guided practice are developed in greater detail in midfieldr package vignettes [link]."
   },
   {
     "objectID": "agenda.html#thursday-july-13",
@@ -187,13 +187,6 @@
     "title": "R chart basics",
     "section": "Scatterplot with mean line",
     "text": "Scatterplot with mean line\nLet’s finish with a plot that you might include in a publication\n\nggplot(data = cw, mapping = aes(x = Time, y = weight, group = Diet, color = Diet)) +\n  facet_wrap(vars(Diet)) +\n  stat_summary(fun = \"mean\", geom = \"line\", colour= \"black\") +\n  geom_jitter() +\n  theme(legend.position = \"none\") +\n  ggtitle(\"Chick weight by diet and elapsed time\") +\n  xlab(\"Time (days)\") +\n  ylab(\"Weight (grams)\")\n\n\n\n\nNote that I printed the line layer first then printed the points over them to let the data be prominent.\n\nExercise 2.8Answer\n\n\n\nRead the help page for the facet_wrap() function\nSee if you can edit the code slightly to make the facets print out row-wise, as in 1 row and 4 columns of charts.\n\nWhat visual advantages does this arrangement provide?\nWhat visual disadvantages?"
-  },
-  {
-    "objectID": "chart-repertoire.html",
-    "href": "chart-repertoire.html",
-    "title": "Visualization 2",
-    "section": "",
-    "text": "In the second session we illustrate a repertoire of chart types and how they are suited to specific data structures and answering specific types of questions.\n\nThe session should encourage you to:\n\nExplicitly define the type of variables in your data\nSuit the chart design to the variables you have\nIteratively explore the message conveyed by different designs\n\nMaterials\n\nDownload PDF worksheets for think-write-share activities. Hard copy seems to work best for many people."
   },
   {
     "objectID": "data-basics.html",

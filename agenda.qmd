@@ -54,15 +54,21 @@ If you are new to R (or new to the ggplot2 or data.table packages), we recommend
 
 
 
-**Introductions** [![](resources/download-icon.png) slides](resources/2023-introduction-slides.pdf)     
+**Introductions** [![](resources/download-icon.png) slides](resources/2023-introduction-slides.pdf)    
 *1:00--2:00 Eastern Time*    
 Introduce facilitators and participants, objectives, and  MIDFIELD.  
 
 
 
-**Exploring data structure** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf)     
-*2:00--3:00*    
-Exploring data excerpts manually.
+**Exploring data structure** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf)    
+*2:00--3:00*   
+Exploring data excerpts manually.   
+
+- [Student 1 data example](resources/2023-data-example1.pdf) 
+- [Student 2 data example](resources/2023-data-example2.pdf)    
+- [CIP website](https://nces.ed.gov/ipeds/cipcode/browse.aspx?y=55) NCES Classification of Instructional Programs (CIP) 
+
+
 
 
 
