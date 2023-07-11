@@ -94,7 +94,7 @@ Self-paced case study using midfieldr and midfielddata. Real-time help. Please c
 
 
 
-**Metaphors and metrics** [![](resources/download-icon.png) slides](resources/2023-metaphors-and-metrics.pdf)   
+**Metaphors and metrics** [![](resources/download-icon.png) slides](resources/2023-metaphors-and-metrics-slides.pdf)   
 *1:00--1:30 Eastern Time*    
 Pipelines, pathways, and ecosystems. 
 
