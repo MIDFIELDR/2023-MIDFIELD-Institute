@@ -319,10 +319,10 @@ What do the following pairs of examples do?
 
 ## Answer
 
-1. 19 and 9500
-2. 2.718282 and 3
-3. -1 and +1
-4. 27.9 and 11.9
+1. `r ceiling(18.33)` and `r signif(9488, 2)` 
+2. `r round(exp(1), 3)` and `r log10(1000)`
+3. `r sign(-2.9)` and `r sign(32)`
+4. `r abs(-27.9)` and `r abs(11.9)`
 :::
 
 
@@ -552,22 +552,16 @@ The `class()` function reveals that this `data.frame` object is also a `data.tab
 
 For the following midfieldr objects, determine:
 
-- the class of`add_timely_term`
-- the class of`toy_student`
+- the class of `add_timely_term`
+- the class of `toy_student`
 - the names of the variables in `toy_term`
 
 ## Answer
+1. `r class(add_timely_term)`
+2. `r class(toy_student)`
+3. `r names(toy_term)`
 
-```r
-# class of add_timely_term
-#> [1] "function"
 
-# class of toy_student
-#> [1] "data.table" "data.frame"
-
-# variables in toy_term
-#> [1] "mcid" "institution" "term" "cip6" "level" "hours_term" 
-```
 :::
 
 [Everything in R has structure]{.important}
@@ -591,13 +585,22 @@ Use `str()` to determine
 
 1. `add_timely_term` arguments
 2. `toy_student` dimensions
-3. `toy_term` numerical variables
+3. `study_results` numerical variables
 
 ## Answer
 
-1. `dframe`, `midfield_term`, `span`, `sched_span`
-2. 100 rows x 6 columns
-3. `hours_term` 
+```{r}
+#| echo: false
+x <- Filter(is.numeric, study_results)
+```
+
+1. The `str()` function prints out the arguments and their default values within the parentheses:
+```{r}
+str(add_timely_term)
+```
+2. `r dim(toy_student)[1]` rows and `r dim(toy_student)[2]` columns
+3. `r ncol(x)` variables: `r names(x)`
+
 :::
 
 

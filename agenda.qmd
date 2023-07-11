@@ -1,10 +1,16 @@
 ---
-title: "Agenda"
+title: "Program"
 ---
 
 ![Image: *Today's Agenda* by Rajiv Patel is licensed under [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/legalcode)](figures/agenda.png)
 
+
+
+
 ## Pre-workshop
+
+
+
 
 **Pre-workshop tutorials**     
 If you are new to R (or new to the ggplot2 or data.table packages), we recommend you complete the three introductory tutorials listed below. Completing these tutorials before attending the Institute will make your time with us that much more productive.
@@ -19,7 +25,13 @@ If you are new to R (or new to the ggplot2 or data.table packages), we recommend
 
 ## Tuesday, July 11
 
+
+
+
 [Join the online office hours](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)    
+
+
+
 
 **Office hours**    
 *1:00--5:00 pm Eastern Time.*  We are available for answering questions and resolving problems you encounter installing R or working with R in the three pre-workshop tutorials. 
@@ -39,15 +51,21 @@ If you are new to R (or new to the ggplot2 or data.table packages), we recommend
 
 [Join the online meeting](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)    
 
-**Introductions** [![](resources/icons8-download-64.png) slides](resources/tbd.pdf) (not yet posted)    
+
+
+
+**Introductions** [![](resources/download-icon.png) slides](resources/2023-introduction-slides.pdf)     
 *1:00--2:00 Eastern Time*    
 Introduce facilitators and participants, objectives, and  MIDFIELD.  
 
 
 
-**Exploring data structure** [![](resources/icons8-download-64.png) slides](resources/tbd.pdf) (not yet posted)    
+**Exploring data structure** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf)     
 *2:00--3:00*    
 Exploring data excerpts manually.
+
+
+
 
 **Guided practice.**    
 *3:00--5:00*    
@@ -55,6 +73,9 @@ Self-paced case study using midfieldr and midfielddata. Real-time help. Please c
 
 - [Case study: Goals](https://midfieldr.github.io/midfieldr/articles/art-001-case-goals.html) A short reading.   
 - [Case study: Data](https://midfieldr.github.io/midfieldr/articles/art-002-case-data.html) A midfieldr tutorial. 
+
+
+
 
 **Homework**
 
@@ -70,13 +91,22 @@ Self-paced case study using midfieldr and midfielddata. Real-time help. Please c
 
 [Join the online meeting](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)    
 
-**Metaphors and metrics** [![](resources/icons8-download-64.png) slides](resources/tbd.pdf) (not yet posted)    
+
+
+
+**Metaphors and metrics** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf)   
 *1:00--1:30 Eastern Time*    
 Pipelines, pathways, and ecosystems. 
+
+
+
 
 **Guided practice**    
 *1:30--2:30*    
 [Case study: Results](https://midfieldr.github.io/midfieldr/articles/art-003-case-results.html) Continue the case study. 
+
+
+
 
 **Data visualization session 1**        
 *2:30--3:30*    
@@ -86,17 +116,26 @@ We demonstrate the perceptual limitations of common graph types and suggest more
 - Facilitating quantitative **reasoning** about the data
 - Enhancing **credibility** of evidence supporting an argument
 
+
+
+
 Materials 
 
 - [![](resources/icons8-download-64.png)worksheets](resources/2023-effective-charts-handout.pdf) for think-write-share activities.
 -  [![](resources/icons8-download-64.png) slides](resources/tbd.pdf) (not yet posted)    
 
-**Drafting a research question.** [![](resources/icons8-download-64.png)slides](resources/tbd.pdf) (Link not yet active)    
+
+
+
+**Drafting a research question.** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf)   
 *3:30--5:00*    
 Define a problem in the data that interests you with our assistance, form small groups. Report out your research questions and discussion. Please check in with us before leaving the virtual meeting. 
 
 - [Data dictionaries](https://midfieldr.github.io/midfielddata/reference/index.html) for the four practice data sets. 
 - [Exploring the variables](https://midfieldr.github.io/midfieldr/articles/art-000-getting-started.html) using R. The midfieldr "Getting started" page illustrates how to examine possible values for a variable.  
+
+
+
 
 **Homework**
 
@@ -113,9 +152,15 @@ Define a problem in the data that interests you with our assistance, form small 
 
 [Join the online meeting](https://purdue-edu.zoom.us/j/99534954101?pwd=QkZ3SlpDZyszVVZDQkU4ZWR5TjMwdz09)    
 
+
+
+
 **Data visualization session 2: Expanding your graphical repertoire**    
 *1:00--2:00 Eastern Time*    
 We illustrate a repertoire of chart types and how they are suited to specific data structures and answering specific types of questions. 
+
+
+
 
 Materials 
 
@@ -125,13 +170,22 @@ Materials
 
 
 
+
+
+
 **Work on your research question**    
 *2:00--3:30*    
 Consult with us on your progress, discussion 
 
+
+
+
 **Progress report** [![](resources/icons8-download-64.png) suggested goals](resources/drafting-a-research-question.pdf)    
 *3:30--4:30*    
 Share with the group. 
+
+
+
 
 **Wrap up**    
 *4:40--4:45*    
