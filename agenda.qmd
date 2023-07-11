@@ -94,7 +94,7 @@ Self-paced case study using midfieldr and midfielddata. Real-time help. Please c
 
 
 
-**Metaphors and metrics** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf)   
+**Metaphors and metrics** [![](resources/download-icon.png) slides](resources/2023-metaphors-and-metrics.pdf)   
 *1:00--1:30 Eastern Time*    
 Pipelines, pathways, and ecosystems. 
 
@@ -108,21 +108,14 @@ Pipelines, pathways, and ecosystems.
 
 
 
-**Data visualization session 1**        
+**Data visualization session 1** [![](resources/download-icon.png) slides](resources/effective-charts-slides.pdf) [![](resources/download-icon.png) worksheets](resources/2023-effective-charts-handout.pdf)    
 *2:30--3:30*    
-We demonstrate the perceptual limitations of common graph types and suggest more effective alternatives. Our goals in visual rhetoric are  
+A hard-copy printout of the worksheet is recommended for our think-share activities. We demonstrate the perceptual limitations of common graph types and suggest more effective alternatives. Our goals in visual rhetoric are  
   
 - Improving **perception** of stories in the data
 - Facilitating quantitative **reasoning** about the data
 - Enhancing **credibility** of evidence supporting an argument
-
-
-
-
-Materials 
-
-- [![](resources/icons8-download-64.png)worksheets](resources/2023-effective-charts-handout.pdf) for think-write-share activities.
--  [![](resources/icons8-download-64.png) slides](resources/tbd.pdf) (not yet posted)    
+ 
 
 
 
@@ -155,17 +148,12 @@ Define a problem in the data that interests you with our assistance, form small 
 
 
 
-**Data visualization session 2: Expanding your graphical repertoire**    
+**Data visualization session 2: Expanding your graphical repertoire** [![](resources/download-icon.png) slides](resources/chart-repertoire-slides.pdf) [![](resources/download-icon.png) worksheets](resources/2023-chart-repertoire-handout.pdf)    
 *1:00--2:00 Eastern Time*    
-We illustrate a repertoire of chart types and how they are suited to specific data structures and answering specific types of questions. 
+A hard-copy printout of the worksheet is recommended for our think-share activities. We illustrate a repertoire of chart types and how they are suited to specific data structures and answering specific types of questions. 
 
 
 
-
-Materials 
-
-- [![](resources/icons8-download-64.png)worksheets](resources/2023-chart-repertoire-handout.pdf) for think-write-share activities.
--  [![](resources/icons8-download-64.png) slides](resources/tbd.pdf) (not yet posted)  
 
 
 
@@ -180,7 +168,7 @@ Consult with us on your progress, discussion
 
 
 
-**Progress report** [![](resources/icons8-download-64.png) suggested goals](resources/drafting-a-research-question.pdf)    
+**Progress report** [![](resources/download-icon.png) suggested goals](resources/2023-draft-a-research-question.pdf)    
 *3:30--4:30*    
 Share with the group. 
 
