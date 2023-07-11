@@ -69,11 +69,16 @@ Exploring data excerpts manually.
 
 **Guided practice.**    
 *3:00--5:00*    
-Self-paced case study using midfieldr and midfielddata. Real-time help. Please check in with us before leaving the virtual meeting.
+Self-paced case study using midfieldr and midfielddata. Real-time help.
 
 - [Case study: Goals](https://midfieldr.github.io/midfieldr/articles/art-001-case-goals.html) A short reading.   
 - [Case study: Data](https://midfieldr.github.io/midfieldr/articles/art-002-case-data.html) A midfieldr tutorial. 
 
+
+
+**Wrap-up.**    
+*before 5:00*    
+Please check in with us before leaving the virtual meeting.
 
 
 
@@ -122,12 +127,16 @@ A hard-copy printout of the worksheet is recommended for our think-share activit
 
 **Drafting a research question.** [![](resources/download-icon.png) slides](resources/2023-research-question.pdf)   
 *3:30--5:00*    
-Define a problem in the data that interests you with our assistance, form small groups. Report out your research questions and discussion. Please check in with us before leaving the virtual meeting. 
+Define a problem in the data that interests you with our assistance, form small groups. Report out your research questions and discussion. 
 
 - [Data dictionaries](https://midfieldr.github.io/midfielddata/reference/index.html) for the four practice data sets. 
 - [Exploring the variables](https://midfieldr.github.io/midfieldr/articles/art-000-getting-started.html) using R. The midfieldr "Getting started" page illustrates how to examine possible values for a variable.  
 
 
+
+**Wrap-up.**    
+*before 5:00*    
+Please check in with us before leaving the virtual meeting.
 
 
 **Homework**
@@ -175,7 +184,7 @@ Share with the group.
 
 
 
-**Wrap up**    
+**Wrap up** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf)    
 *4:40--4:45*    
 
 
