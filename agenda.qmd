@@ -91,6 +91,7 @@ Please check in with us before leaving the virtual meeting.
 **Homework**
 
 - Complete the guided practice "Data" tutorial. 
+- For our think-share activities in tomorrow's data visualization session, consider printing a hard-copy of the worksheet. (Download link in tomorrow's program below.)
 - *Optional (FYI)*. Topics from today's guided practice are developed in greater detail in midfieldr package vignettes  [[link]](https://midfieldr.github.io/midfieldr/articles/).
 
 
@@ -149,6 +150,7 @@ Please check in with us before leaving the virtual meeting.
 
 - Complete the guided practice "Results" tutorial. 
 - Refine your plan for working on your research question.  
+- For our think-share activities in tomorrow's data visualization session, consider printing a hard-copy of the worksheet. (Download link in tomorrow's program below.)
 - *Optional (FYI)*. Topics from today's guided practice are developed in greater detail in midfieldr package vignettes  [[link]](https://midfieldr.github.io/midfieldr/articles/).
 
 
