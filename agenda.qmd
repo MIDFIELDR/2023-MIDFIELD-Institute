@@ -55,9 +55,13 @@ If you are new to R (or new to the ggplot2 or data.table packages), we recommend
 
 
 **Introductions** [![](resources/download-icon.png) slides](resources/2023-introduction-slides.pdf)    
-*1:00--2:00 Eastern Time*    
+*1:00--1:50 Eastern Time*    
 Introduce facilitators and participants, objectives, and  MIDFIELD.  
 
+
+
+**Break**    
+1:50--2:00      
 
 
 **Exploring data structure** [![](resources/download-icon.png) slides](resources/Exploring-data-structure-questions.pdf)    

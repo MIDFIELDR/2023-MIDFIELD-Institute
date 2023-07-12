@@ -162,7 +162,7 @@ Press the escape key (ESC) to break out.
 
 ## R scripts
 
-I recommend that you write your lines of code in a script. Scripts can saved, edited, and run again and again. 
+[Creating a script]{.important} I recommend that you write your lines of code in a script. Scripts can saved, edited, and run again and again. 
 
 - Use *File &gt; New File &gt; R Script* to create a new R script
 - *File &gt; Save As...* to name the file (I suggest `01-r-basics.R`), then save it to the `scripts` directory 
@@ -187,7 +187,10 @@ library("midfieldr")
 
 Note: In a code chunk like the one above, you can click on the "Copy to clipboard" icon in the upper right corner to enable quick copy and paste from this document to your script.
 
-Run the script by clicking the *Source* button. Alternatively, you can use the keyboard shortcuts *ctrl A* (MacOS *cmd A*) to select all lines then *ctrl Enter* (MacOS *cmd Return*) to run all lines. (See the appendices for a table of useful keyboard shortcuts.)
+[**Running a script**]{.important}
+
+- Run the script by clicking the *Source* button. Some participants report that this does not always work. The workaround is to: 
+- Select the lines you want to run  then *ctrl Enter* (MacOS *cmd Return*). Use the keyboard shortcuts *ctrl A* (MacOS *cmd A*) to select all lines. (See the appendices for a table of useful keyboard shortcuts.)
 
 If you see an error like this one, 
 
