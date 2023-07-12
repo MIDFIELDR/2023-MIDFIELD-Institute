@@ -60,12 +60,12 @@ Introduce facilitators and participants, objectives, and  MIDFIELD.
 
 
 
-**Exploring data structure** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf)    
+**Exploring data structure** [![](resources/download-icon.png) slides](resources/Exploring-data-structure-questions.pdf)    
 *2:00--3:00*   
 Exploring data excerpts manually.   
 
-- [Student 1 data example](resources/2023-data-example1.pdf) 
-- [Student 2 data example](resources/2023-data-example2.pdf)    
+- [Student 3 data example](resources/Example3.pdf) 
+- [Student 4 data example](resources/Example4.pdf)    
 - [CIP website](https://nces.ed.gov/ipeds/cipcode/browse.aspx?y=55) NCES Classification of Instructional Programs (CIP) 
 
 
