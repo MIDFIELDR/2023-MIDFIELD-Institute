@@ -131,13 +131,20 @@ Pipelines, pathways, and ecosystems.
 
 
 **Data visualization session 1** [![](resources/download-icon.png) slides](resources/effective-charts-slides.pdf) [![](resources/download-icon.png) worksheets](resources/2023-effective-charts-handout.pdf)    
-*2:30--3:30*    
+*2:30--3:20*    
 A hard-copy printout of the worksheet is recommended for our think-share activities. We demonstrate the perceptual limitations of common graph types and suggest more effective alternatives. Our goals in visual rhetoric are  
   
 - Improving **perception** of stories in the data
 - Facilitating quantitative **reasoning** about the data
 - Enhancing **credibility** of evidence supporting an argument
  
+ 
+ 
+ 
+ **Break**    
+3:20--3:30 
+
+
 
 
 

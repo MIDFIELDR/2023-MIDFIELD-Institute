@@ -40,7 +40,7 @@ website:
       - text: "Tutorial links"
         file: tutorials.qmd
         
-      - text: "R resources"
+      - text: "Resources"
         file: r-resources.qmd
         
       - text: "License"
