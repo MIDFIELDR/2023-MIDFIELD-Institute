@@ -1,0 +1,14 @@
+{
+  "hash": "486b7657ffe0e8edf2e9460d69f0a234",
+  "result": {
+    "markdown": "---\ntitle: \"Chart code\"\n---\n\n\nHere, we document some of the data and scripts used in producing the charts in the data visualization segments of the Institute. \n\n## Correlation\n\nEngineering students at 14 institutions persisting to year 4 and graduating by year 6, 1987--2019. \n\nData are in the Institute repository data directory. \n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(data.table)\nDT <- fread(\"data/four-year-six-year.csv\")\nDT\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n    institution    sex    y4    y6\n 1:           A Female  4953  4525\n 2:           A   Male 17897 16312\n 3:           B Female  2834  3316\n 4:           B   Male  9351 10473\n 5:           C Female  2071  1764\n 6:           C   Male 10128  8575\n 7:           D Female  2217  2096\n 8:           D   Male  8099  7863\n 9:           E Female  2300  1941\n10:           E   Male  9062  7559\n11:           F Female  1601  1270\n12:           F   Male  7222  5545\n13:           G Female  1226  1146\n14:           G   Male  5315  4911\n15:           H Female   981   774\n16:           H   Male  4548  3640\n17:           J Female   799   666\n18:           J   Male  4005  3315\n19:           K Female   439   412\n20:           K   Male  1981  1789\n21:           L Female   401   824\n22:           L   Male   602  1332\n23:           M Female   462   319\n24:           M   Male  1829  1160\n25:           N Female   322   228\n26:           N   Male  1338   838\n27:           P Female   457   283\n28:           P   Male   827   447\n    institution    sex    y4    y6\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

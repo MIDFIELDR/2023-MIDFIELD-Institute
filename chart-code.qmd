@@ -1,0 +1,21 @@
+---
+title: "Chart code"
+---
+
+Here, we document some of the data and scripts used in producing the charts in the data visualization segments of the Institute. 
+
+## Correlation
+
+Engineering students at 14 institutions persisting to year 4 and graduating by year 6, 1987--2019. 
+
+Data are in the Institute repository data directory. 
+
+```{r}
+library(data.table)
+DT <- fread("data/four-year-six-year.csv")
+DT
+```
+
+
+
+
