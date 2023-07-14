@@ -8,14 +8,14 @@ Here, we document some of the data and scripts used in producing the charts in t
 
 Engineering students at 14 institutions persisting to year 4 and graduating by year 6, 1987--2019. 
 
-Data are in the Institute repository data directory. 
+Data are in the Institute repository data directory at https://github.com/MIDFIELDR/2023-midfield-institute/. With 
 
 ```{r}
 library(data.table)
-DT <- fread("data/four-year-six-year.csv")
+data_url <- "https://github.com/MIDFIELDR/2023-midfield-institute/blob/main/data/four-year-six-year.csv"
+DT <- fread(data_url)
 DT
 ```
-
 
 
 

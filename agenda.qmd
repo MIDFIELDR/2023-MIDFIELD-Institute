@@ -201,6 +201,15 @@ A hard-copy printout of the worksheet is recommended for our think-share activit
 *2:00--3:30*    
 Consult with us on your progress, discussion 
 
+[Data dictionaries]{.important} for the MIDFIELD research data set.
+
+- [student](resources/research-variables-student.pdf)
+- [term](resources/research-variables-term.pdf)
+- [course](resources/research-variables-course.pdf)
+- [degree](resources/research-variables-degree.pdf)
+
+
+
 
 
 
