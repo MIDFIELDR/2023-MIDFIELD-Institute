@@ -4,18 +4,92 @@ title: "Chart code"
 
 Here, we document some of the data and scripts used in producing the charts in the data visualization segments of the Institute. 
 
+```{r}
+# silently load packages
+suppressPackageStartupMessages(library("data.table"))
+suppressPackageStartupMessages(library("ggplot2"))
+
+# set data.table printout options
+options(
+  datatable.print.nrows = 20,
+  datatable.print.topn = 5,
+  datatable.print.class = TRUE
+)
+```
+
+
 ## Correlation
 
 Engineering students at 14 institutions persisting to year 4 and graduating by year 6, 1987--2019. 
 
-Data are in the Institute repository data directory at https://github.com/MIDFIELDR/2023-midfield-institute/. With 
+Data are available in the [Institute repository data directory]( https://github.com/MIDFIELDR/2023-midfield-institute/tree/46d97d20593b59b7f2350689b41f2607eb8d0d91/data). If you download that CSV file and save it in your project data directory, you can input the data using:
 
 ```{r}
-library(data.table)
-data_url <- "https://github.com/MIDFIELDR/2023-midfield-institute/blob/main/data/four-year-six-year.csv"
-DT <- fread(data_url)
+# import data
+DT <- fread("data/four-year-six-year.csv")
 DT
 ```
 
+```{r}
+ggplot(DT, aes(x = y4/1000, y = y6/1000)) +
+  geom_smooth(method = "lm", se = FALSE, size = 0.6, color = "gray") +
+  geom_point(size = 3, 
+             shape = 21, 
+             color = "black", 
+             fill = "gray70") + 
+  labs(x = "4-yr persisters (thousands)", 
+       y = "6-yr completers (thousands)", 
+       title = "")
+```
 
+```{r}
+ggplot(DT, aes(x = y4/1000, y = y6/1000, color = sex, fill = sex)) +
+  geom_smooth(method = "lm", se = FALSE, size = 0.6) +
+  geom_point(size = 3, shape = 21) + 
+  scale_color_manual(values = c("#1B7837", "#762A83")) +
+  scale_fill_manual(values = c("#5AAE61", "#9970AB")) +
+  labs(x = "4-yr persisters (thousands)", 
+       y = "6-yr completers (thousands)", 
+       title = "") + 
+  theme(legend.position = "none") +
+  geom_text(data = DT[institution == "B"],
+            aes(x = y4/1000, y = y6/1000, label = sex),
+            vjust = -1, hjust = 1, size = 4)
+```
+
+```{r}
+ggplot(DT, aes(x = y4/1000, y = y6/1000, color = sex, fill = sex)) +
+  geom_smooth(method = "lm", se = FALSE, size = 0.6) +
+  geom_point(size = 3, shape = 21) + 
+  scale_color_manual(values = c("#1B7837", "#762A83")) +
+  scale_fill_manual(values = c("#5AAE61", "#9970AB")) +
+  labs(x = "4-yr persisters (thousands)", 
+       y = "6-yr completers (thousands)", 
+       title = "") + 
+  theme(legend.position = "none") +
+  
+  facet_wrap(vars(sex))
+```
+
+```{r}
+dt <- copy(DT)
+p <- ggplot(dt, aes(x = y4/1000, y = y6/1000, color = sex, fill = sex)) +
+  superpose_point +
+  superpose_color +
+  superpose_fill_mid +
+  # coord_equal() +
+  facet_wrap(vars(reorder(institution, y6, median)),
+             ncol = 7,
+             as.table = FALSE)+
+  labs(x = "4-yr persisters (thousands)",
+       y = "6-yr completers (thousands)") +
+  theme_graphclass(font_size = 20) +
+  theme(legend.position = "none") +
+  geom_text(data = dt[institution == "Institution G"],
+            aes(x = y4/1000, y = y6/1000, label = sex),
+            vjust = 0.5, hjust = c(-0.2, -0.4), size = 7) +
+  scale_x_continuous(limits = c(-1, 19), breaks = seq(0, 15, 5)) +
+  scale_y_continuous(limits = c(-1, 17), breaks = seq(0, 15, 5))
+p
+```
 

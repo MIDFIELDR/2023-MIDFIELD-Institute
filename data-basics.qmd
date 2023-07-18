@@ -94,8 +94,7 @@ Use your script throughout the tutorial. When a new chunk of code is given,
 
 ## Import data
 
-Read the same data file we used in the previous tutorial. The data set is in 
-block-record (or "data matrix") form, that is, variables are columns and observations are rows. 
+Read the same data file we used in the previous tutorial. The data set is in block-record (or "data matrix") form, that is, variables are columns and observations are rows. 
 
 ```{r}
 # import data

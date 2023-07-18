@@ -1,0 +1,214 @@
+---
+title: "From practice data to research data"
+---
+
+```{r}
+#| label: setup
+#| include: false
+knitr::opts_chunk$set(comment = "#>", collapse = TRUE)
+options(
+  datatable.print.nrows = 10,
+  datatable.print.topn = 3,
+  datatable.print.class = TRUE
+)
+```
+
+Some Institute participants have encountered problems when transitioning from practice data (in the tutorials) to the research data. Here we share some common problems and their solutions. 
+
+## Preface
+
+There are currently two points of access to MIDFIELD data:
+
+[MIDFIELD](https://midfield.online/). &nbsp; A database of anonymized student-level records for approximately 2.4M undergraduates at 21 US institutions from 1987--2022. Access to this database requires a confidentiality agreement and Institutional Review Board (IRB) approval for human subjects research. 
+
+[midfielddata](https://midfieldr.github.io/midfielddata/). &nbsp; An R data package that supplies anonymized student-level records for 98,000 undergraduates at three US institutions from 1988-2018. A sample of the MIDFIELD database, midfielddata provides practice data for the tools and methods in the midfieldr package. 
+
+Compared to the practice data, the research data contains additional variables (columns). The similarities and differences can be found by comparing the two data dictionaries. 
+
+
+Data dictionaries 
+
+- student table [practice data](https://midfieldr.github.io/midfielddata/reference/student.html) /  [research data](resources/research-variables-student.pdf)
+- term table [practice data](https://midfieldr.github.io/midfielddata/reference/term.html) /  [research data](resources/research-variables-term.pdf)
+- course table [practice data](https://midfieldr.github.io/midfielddata/reference/course.html) /  [research data](resources/research-variables-course.pdf)
+- degree table [practice data](https://midfieldr.github.io/midfielddata/reference/degree.html) /  [research data](resources/research-variables-degree.pdf)
+
+
+## Getting started
+
+We assume you are working in an RStudio project with a project directory (folder) that looks something like this: 
+
+    midfield_project_name\
+        data\
+        exercises\
+        R\
+        midfield_project_nname.Rproj
+
+Your research data files should be located in the `data` directory. We suggest separate directories for practice scripts or exercises (like this tutorial) and mature scripts (in an `R` or `scripts` directory) that document your MIDFIELD research study. 
+
+If you are writing your own script to follow along, we use these packages in this article:
+
+```{r}
+# packages
+library(midfieldr)
+suppressPackageStartupMessages(library(data.table))
+```
+
+To illustrate the problems and solutions, we use the `toy_*` data sets included with midfieldr. To practice working with a local CSV file, we write the `toy_term` data set to the `data` directory. This code chunk writes the data to file only if the CSV file does not already exist. 
+
+```{r}
+# write a CSV file (once)
+if(!file.exists("data/toy_term.csv")){
+  write.csv(toy_term, "data/toy_term.csv", row.names = FALSE)
+}
+```
+
+In the code chunks below, we use `df` to indicate a base R data.frame object and `dt` to indicate a data frame that is also a data.table object. 
+
+
+
+
+## Column classes
+
+[Problem.]{.important} &nbsp; A data-import function might interpret the CIP or term variables as integers instead of the expected character strings. 
+
+To illustrate the problem, let's read the `toy_term` CSV file and view its structure. Note that the `cip6` and `term` variables are imported as integers. The problem is that the leading zero that starts some CIPs will be lost. midfieldr functions expect `term` and `cip6` to be imported as character variables. 
+
+```{r}
+# import in base R
+df <- read.csv("data/toy_term.csv")
+
+# view 
+str(df)
+```
+
+Importing with data.table's `fread()` yields a similar result. 
+
+[Base R solution.]{.important}  &nbsp; Use the `colClasses` argument to explicitly classify selected variables. 
+
+```{r}
+df <- read.csv("data/toy_term.csv", 
+               colClasses = c(cip6 = "character", term = "character"))
+str(df)
+```
+
+[data.table solution.]{.important}  &nbsp; `fread()` has a `colClasses` argument too.  
+
+```{r}
+dt <- fread("data/toy_term.csv", 
+            colClasses = c(cip6 = "character", term = "character"))
+str(dt)
+```
+
+
+
+
+
+
+## Filtering rows
+
+[Problem.]{.important}  &nbsp; The tutorial examples for filtering by rows doesn't work if a data frame is not also a data.table object. 
+
+To illustrate, let's use the `df` data frame we created earlier, 
+
+```{r}
+# the data.frame object from earlier
+str(df)
+```
+
+Using the code from the Institute tutorials to filter by institution yields an error,
+
+```r
+x <- df[institution == "Institution B"]
+#> Error: object 'institution' not found
+```
+
+[Base R solution.]{.important}  &nbsp; Base R syntax requires `df$institution` in the row operation inside the brackets, plus a comma to separate row from column operations. 
+
+```{r}
+# base R filter by row
+x <- df[df$institution == "Institution B", , drop = FALSE]
+
+# view 
+str(x)
+```
+
+In base R, it is also good practice to add a third argument `drop = FALSE` to get around the default behavior that, if a result is a single column, converts the data frame to a vector. 
+
+Alternatively, we can identify the rows we want to keep in a separate line, 
+
+```{r}
+# row-selection criterion
+rows_we_want <- df$institution == "Institution B"
+
+# base R filter by row
+y <- df[rows_we_want, , drop = FALSE]
+```
+
+Confirm that results are the same (using `midfieldr::same_content()`)
+
+```{r}
+# verify results
+same_content(x, y)
+```
+
+
+
+[data.table solution.]{.important}  &nbsp; Create a data.table using one of two methods. 
+
+We created a data.table by importing the data using `fread()`. 
+
+```{r}
+# the data.table object from earlier
+str(dt)
+```
+
+Or we apply the data.table function `setDT()` to a convert data frame to a data.table object. Note that a data.table is also a data.frame. 
+
+```{r}
+# data.frame object
+z <- copy(df)
+class(z)
+
+# convert to data.table
+setDT(z)
+class(z)
+```
+
+The tutorial-suggested filtering works, 
+
+```{r}
+# data.table filter by row
+x <- dt[institution == "Institution B"]
+
+# view
+str(x)
+```
+
+Alternatively, we can identify the rows we want to keep in a separate line, similar to the alternate base R solution (note the `$` notation),  
+
+```{r}
+# row-selection criterion
+rows_we_want <- dt$institution == "Institution B"
+
+# data.table filter by row
+y <- dt[rows_we_want]
+
+# verify results
+same_content(x, y)
+```
+
+Lastly, because data.table objects are also data.frames, base R syntax works correctly on data.table objects. 
+
+```{r}
+# base R syntax with a data.table object
+z <- dt[rows_we_want, , drop = FALSE]
+
+# verify results
+same_content(x, z)
+```
+
+
+
+
+

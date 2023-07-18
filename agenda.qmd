@@ -155,9 +155,14 @@ A hard-copy printout of the worksheet is recommended for our think-share activit
 *3:30--5:00*    
 Define a problem in the data that interests you with our assistance, form small groups. Report out your research questions and discussion. 
 
-- [Data dictionaries](https://midfieldr.github.io/midfielddata/reference/index.html) for the four practice data sets. 
-- [Exploring the variables](https://midfieldr.github.io/midfieldr/articles/art-000-getting-started.html) using R. The midfieldr "Getting started" page illustrates how to examine possible values for a variable.  
+[Resources]{.important} 
 
+- (optional) [Getting started](https://midfieldr.github.io/midfieldr/articles/art-000-getting-started.html) (midfieldr article) to inspect the variables and values in the four practice data tables.
+- (optional) Data dictionaries 
+  - student table [practice data](https://midfieldr.github.io/midfielddata/reference/student.html) /  [research data](resources/research-variables-student.pdf)
+  - term table [practice data](https://midfieldr.github.io/midfielddata/reference/term.html) /  [research data](resources/research-variables-term.pdf)
+  - course table [practice data](https://midfieldr.github.io/midfielddata/reference/course.html) /  [research data](resources/research-variables-course.pdf)
+  - degree table [practice data](https://midfieldr.github.io/midfielddata/reference/degree.html) /  [research data](resources/research-variables-degree.pdf)
 
 
 **Wrap-up.**    
@@ -189,6 +194,11 @@ Please check in with us before leaving the virtual meeting.
 A hard-copy printout of the worksheet is recommended for our think-share activities. We illustrate a repertoire of chart types and how they are suited to specific data structures and answering specific types of questions. 
 
 
+**Guest speaker** [![](resources/download-icon.png)  slides](resources/miller-ives-sankey.pdf) Sankey diagram by Erica Ives    
+*2:00--2:10*    
+
+
+
 
 
 
@@ -198,7 +208,7 @@ A hard-copy printout of the worksheet is recommended for our think-share activit
 
 
 **Work on your research question** [![](resources/download-icon.png) suggested goals](resources/2023-draft-a-research-question.pdf)    
-*2:00--3:30*    
+*2:10--3:30*    
 Consult with us on your progress, discussion 
 
 [Data dictionaries]{.important} for the MIDFIELD research data set.
@@ -220,7 +230,7 @@ Share with the group.
 
 
 
-**Wrap up** [![](resources/download-icon.png) slides](resources/placeholder-image.pdf)    
+**Wrap up** [![](resources/download-icon.png) slides](resources/day-3-wrapup-slides.pdf)    
 *4:40--4:45*    
 
 
@@ -228,4 +238,4 @@ Share with the group.
 
 ## After the workshop
 
- [R resources](r-resources.html) Additional links and books you might find useful
+[R resources](r-resources.html) Additional links and books you might find useful

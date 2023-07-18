@@ -233,17 +233,86 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 <p>Here, we document some of the data and scripts used in producing the charts in the data visualization segments of the Institute.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># silently load packages</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(<span class="st">"data.table"</span>))</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(<span class="st">"ggplot2"</span>))</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># set data.table printout options</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">datatable.print.nrows =</span> <span class="dv">20</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">datatable.print.topn =</span> <span class="dv">5</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">datatable.print.class =</span> <span class="cn">TRUE</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <section id="correlation" class="level2">
 <h2 class="anchored" data-anchor-id="correlation">Correlation</h2>
 <p>Engineering students at 14 institutions persisting to year 4 and graduating by year 6, 1987–2019.</p>
-<p>Data are in the Institute repository data directory at https://github.com/MIDFIELDR/2023-midfield-institute/</p>
+<p>Data are available in the <a href="https://github.com/MIDFIELDR/2023-midfield-institute/tree/46d97d20593b59b7f2350689b41f2607eb8d0d91/data">Institute repository data directory</a>. If you download that CSV file and save it in your project data directory, you can input the data using:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(data.table)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>data_url <span class="ot">&lt;-</span> <span class="st">"https://github.com/MIDFIELDR/2023-midfield-institute/blob/main/data/four-year-six-year.csv"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>DT <span class="ot">&lt;-</span> <span class="fu">fread</span>(data_url)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>DT</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import data</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>DT <span class="ot">&lt;-</span> <span class="fu">fread</span>(<span class="st">"data/four-year-six-year.csv"</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>DT</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Empty data.table (0 rows and 24 cols): {"payload":{"allShortcutsEnabled":false,"fileTree":{"data":{"items":[{"name":"chick_weight.csv","path":"data/chick_weight.csv","contentType":"file"},{"name":"four-year-six-year.csv","path":"data/four-year-six-year.csv","contentType":"file"}],"totalCount":2},"":{"items":[{"name":"_freeze","path":"_freeze","contentType":"directory"},{"name":"data","path":"data","contentType":"directory"},{"name":"docs","path":"docs","contentType":"directory"},{"name":"figures","path":"figures","contentType":"directory"},{"name":"resources","path":"resources","contentType":"directory"},{"name":".gitignore","path":".gitignore","contentType":"file"},{"name":"2023-midfield-institute.Rproj","path":"2023-midfield-institute.Rproj","contentType":"file"},{"name":"README.md","path":"README.md","contentType":"file"},{"name":"_metadata.yml","path":"_metadata.yml","contentType":"file"},{"name":"_quarto.yml","path":"_quarto.yml","contentType":"file"},{"name":"agenda.qmd","path":"agenda.qmd","contentType":"file"},{"name":"before-you-arrive.qmd","path":"before-you-arrive.qmd","contentType":"file"},{"name":"chart-basics.qmd","path":"chart-basics.qmd","contentType":"file"},{"name":"chart-code.qmd","path":"chart-code.qmd","contentType":"file"},{"name":"data-basics.qmd","path":"data-basics.qmd","contentType":"file"},{"name":"index.qmd","path":"index.qmd","contentType":"file"},{"name":"information-science-and-technology.csl","path":"information-science-and-technology.csl","contentType":"file"},{"name":"introduction.qmd","path":"introduction.qmd","contentType":"file"},{"name":"license.qmd","path":"license.qmd","contentType":"file"},{"name":"r-basics.qmd","path":"r-basics.qmd","contentType":"file"},{"name":"r-resources.qmd","path":"r-resources.qmd","contentType":"file"},{"name":"references.bib","path":"references.bib","contentType":"file"},{"name":"styles.css","path":"styles.css","contentType":"file"},{"name":"tutorials.qmd","path":"tutorials.qmd","contentType":"file"}],"totalCount":24}},"fileTreeProcessingTime":34.989025,"foldersToFetch":[],"reducedMotionEnabled":null,"repo":{"id":595341380,"defaultBranch":"main","name":"2023-midfield-institute","ownerLogin":"MIDFIELDR","currentUserCanPush":false,"isFork":false,"isEmpty":false,"createdAt":"2023-01-30T22:07:05.000Z","ownerAvatar":"https://avatars.githubusercontent.com/u/34379190?v=4","public":true,"private":false,"isOrgOwned":true},"refInfo":{"name":"main","listCacheKey":"v0:1675116425.619626","canEdit":false,"refType":"branch","currentOid":"ba2cbcb7f554bcc9b54f9cac6fcd9bbf1eba6a4a"},"path":"data/four-year-six-year.csv","currentUser":null,"blob":{"rawLines":null,"stylingDirectives":null,"csv":[["institution","sex","y4","y6"],["A","Female","4953","4525"],["A","Male","17897","16312"],["B","Female","2834","3316"],["B","Male","9351","10473"],["C","Female","2071","1764"],["C","Male","10128","8575"],["D","Female","2217","2096"],["D","Male","8099","7863"],["E","Female","2300","1941"],["E","Male","9062","7559"],["F","Female","1601","1270"],["F","Male","7222","5545"],["G","Female","1226","1146"],["G","Male","5315","4911"],["H","Female","981","774"],["H","Male","4548","3640"],["J","Female","799","666"],["J","Male","4005","3315"],["K","Female","439","412"],["K","Male","1981","1789"],["L","Female","401","824"],["L","Male","602","1332"],["M","Female","462","319"],["M","Male","1829","1160"],["N","Female","322","228"],["N","Male","1338","838"],["P","Female","457","283"],["P","Male","827","447"]],"csvError":null,"dependabotInfo":{"showConfigurationBanner":false,"configFilePath":null,"networkDependabotPath":"/MIDFIELDR/2023-midfield-institute/network/updates","dismissConfigurationNoticePath":"/settings/dismiss-notice/dependabot_configuration_notice","configurationNoticeDismissed":null,"repoAlertsPath":"/MIDFIELDR/2023-midfield-institute/security/dependabot","repoSecurityAndAnalysisPath":"/MIDFIELDR/2023-midfield-institute/settings/security_analysis","repoOwnerIsOrg":true,"currentUserCanAdminRepo":false},"displayName":"four-year-six-year.csv","displayUrl":"https://github.com/MIDFIELDR/2023-midfield-institute/blob/main/data/four-year-six-year.csv?raw=true","headerInfo":{"blobSize":"512,Bytes","deleteInfo":{"deletePath":null,"deleteTooltip":"You,must,be,signed,in...</code></pre>
+<pre><code>    institution    sex    y4    y6
+         &lt;char&gt; &lt;char&gt; &lt;int&gt; &lt;int&gt;
+ 1:           A Female  4953  4525
+ 2:           A   Male 17897 16312
+ 3:           B Female  2834  3316
+ 4:           B   Male  9351 10473
+ 5:           C Female  2071  1764
+---                               
+24:           M   Male  1829  1160
+25:           N Female   322   228
+26:           N   Male  1338   838
+27:           P Female   457   283
+28:           P   Male   827   447</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(DT, <span class="fu">aes</span>(<span class="at">x =</span> y4<span class="sc">/</span><span class="dv">1000</span>, <span class="at">y =</span> y6<span class="sc">/</span><span class="dv">1000</span>)) <span class="sc">+</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">FALSE</span>, <span class="at">size =</span> <span class="fl">0.6</span>, <span class="at">color =</span> <span class="st">"gray"</span>) <span class="sc">+</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">3</span>, </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>             <span class="at">shape =</span> <span class="dv">21</span>, </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>             <span class="at">color =</span> <span class="st">"black"</span>, </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>             <span class="at">fill =</span> <span class="st">"gray70"</span>) <span class="sc">+</span> </span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"4-yr persisters (thousands)"</span>, </span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"6-yr completers (thousands)"</span>, </span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">""</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="chart-code_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(DT, <span class="fu">aes</span>(<span class="at">x =</span> y4<span class="sc">/</span><span class="dv">1000</span>, <span class="at">y =</span> y6<span class="sc">/</span><span class="dv">1000</span>, <span class="at">color =</span> sex, <span class="at">fill =</span> sex)) <span class="sc">+</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">FALSE</span>, <span class="at">size =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">3</span>, <span class="at">shape =</span> <span class="dv">21</span>) <span class="sc">+</span> </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#1B7837"</span>, <span class="st">"#762A83"</span>)) <span class="sc">+</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#5AAE61"</span>, <span class="st">"#9970AB"</span>)) <span class="sc">+</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"4-yr persisters (thousands)"</span>, </span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"6-yr completers (thousands)"</span>, </span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">""</span>) <span class="sc">+</span> </span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">data =</span> DT[institution <span class="sc">==</span> <span class="st">"B"</span>],</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>            <span class="fu">aes</span>(<span class="at">x =</span> y4<span class="sc">/</span><span class="dv">1000</span>, <span class="at">y =</span> y6<span class="sc">/</span><span class="dv">1000</span>, <span class="at">label =</span> sex),</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>            <span class="at">vjust =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">hjust =</span> <span class="dv">1</span>, <span class="at">size =</span> <span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="chart-code_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(DT, <span class="fu">aes</span>(<span class="at">x =</span> y4<span class="sc">/</span><span class="dv">1000</span>, <span class="at">y =</span> y6<span class="sc">/</span><span class="dv">1000</span>, <span class="at">color =</span> sex, <span class="at">fill =</span> sex)) <span class="sc">+</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">FALSE</span>, <span class="at">size =</span> <span class="fl">0.6</span>) <span class="sc">+</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">3</span>, <span class="at">shape =</span> <span class="dv">21</span>) <span class="sc">+</span> </span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#1B7837"</span>, <span class="st">"#762A83"</span>)) <span class="sc">+</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#5AAE61"</span>, <span class="st">"#9970AB"</span>)) <span class="sc">+</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"4-yr persisters (thousands)"</span>, </span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"6-yr completers (thousands)"</span>, </span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">""</span>) <span class="sc">+</span> </span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="fu">vars</span>(sex))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="chart-code_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 
